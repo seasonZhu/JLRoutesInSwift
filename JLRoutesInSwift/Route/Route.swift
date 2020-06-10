@@ -91,10 +91,10 @@ extension Route {
 
 extension Route {
     
-    /// 通过字符串生成对应的控制器类,将泛型约束变窄,更有利于理解与安全
+    /// 通过字符串生成对应的控制器类,将泛型约束变窄,万一有一个非控制器类可以生成有正好遵守了RouteViewControllerProtocol,会出问题,改会原来的样子
     /// - Parameter className: 类名字符串
     /// - Returns: 类
-    private func creatInstance<T: UIViewController>(by className: String) -> T? {
+    private func creatInstance<T: NSObject>(by className: String) -> T? {
         guard let `class` = NSClassFromString(nameSpace + "." + className), let typeClass = `class` as? T.Type else {
             return nil
         }
