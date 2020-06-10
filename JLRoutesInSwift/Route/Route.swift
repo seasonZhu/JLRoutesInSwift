@@ -93,10 +93,10 @@ extension Route {
 
 extension Route {
     
-    /// 通过字符串生成对应的类
+    /// 通过字符串生成对应的控制器类,将泛型约束变窄,更有利于理解与安全
     /// - Parameter className: 类名字符串
     /// - Returns: 类
-    private func creatInstance<T: NSObject>(by className: String) -> T? {
+    private func creatInstance<T: UIViewController>(by className: String) -> T? {
         guard let `class` = NSClassFromString(nameSpace + "." + className), let typeClass = `class` as? T.Type else {
             return nil
         }
