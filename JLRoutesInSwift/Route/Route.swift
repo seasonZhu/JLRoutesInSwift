@@ -46,9 +46,7 @@ extension Route {
     /// - Parameter hasParameters: 是否有参数
     private func registerModule(hasParameters: Bool) {
         let routePattern = hasParameters ? routePatternWithArguments : routePatternNoArguments
-        JLRoutes.global().addRoute(routePattern) { (parameters) -> Bool in
-            self.goTargetVC(parameters: parameters)
-        }
+        JLRoutes.global().addRoute(routePattern) { return self.goTargetVC(parameters: $0) }
     }
     
     /// 打开URL
