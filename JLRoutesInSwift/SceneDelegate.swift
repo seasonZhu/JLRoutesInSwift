@@ -52,6 +52,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let url = URLContexts.first?.url else {
             return
         }
+        // 在外部Safari浏览器中输入"JLRoutesInSwift://MouduleA/NextViewController/push/字符串 可以进行传值并跳转,目前仅做了字符串的处理,所以这里只能输入字符串
         Route.open(withArguments: url)
     }
 
