@@ -46,7 +46,11 @@ extension ViewController {
     @objc
     func noArgumentPush() {
         let url = URL(string: "JLRoutesInSwift://MouduleA/NextViewController/\(Modal.push.rawValue)")!
-        Route.open(noArguments: url)
+        Route.open(noArguments: url) { (result) in
+            if let info = result as? String {
+                print("这是回调回来的数据\(info)")
+            }
+        }
     }
     
     @objc
@@ -54,13 +58,21 @@ extension ViewController {
         let arguments = "这里push传递的是一个字符串"
         let urlString = "JLRoutesInSwift://MouduleA/NextViewController/\(Modal.push.rawValue)/\(arguments)".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!
         let url = URL(string: urlString)!
-        Route.open(withArguments: url)
+        Route.open(withArguments: url) { (result) in
+            if let info = result as? String {
+                print("这是回调回来的数据\(info)")
+            }
+        }
     }
     
     @objc
     func noArgumentPresent() {
         let url = URL(string: "JLRoutesInSwift://MouduleA/NextViewController/\(Modal.present.rawValue)")!
-        Route.open(noArguments: url)
+        Route.open(noArguments: url) { (result) in
+            if let info = result as? String {
+                print("这是回调回来的数据\(info)")
+            }
+        }
     }
     
     @objc
@@ -68,7 +80,11 @@ extension ViewController {
         let arguments = "这里present传递的是一个字符串"
         let urlString = "JLRoutesInSwift://MouduleA/NextViewController/\(Modal.present.rawValue)/\(arguments)".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!
         let url = URL(string: urlString)!
-        Route.open(withArguments: url)
+        Route.open(withArguments: url) { (result) in
+            if let info = result as? String {
+                print("这是回调回来的数据\(info)")
+            }
+        }
     }
 }
 

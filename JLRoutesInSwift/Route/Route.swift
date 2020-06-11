@@ -22,17 +22,22 @@ private let nameSpace = Bundle.main.infoDictionary?["CFBundleExecutable"] as! St
 public final class Route {
     
     /// 打开无参路由
-    /// - Parameter url: 路由网址
-    public static func open(noArguments url: URL) {
-        Route.shared.open(url: url, hasParameters: false)
+    /// - Parameters:
+    ///   - url: 路由网址
+    ///   - result: 目标路由关闭后回调的数据
+    public static func open(noArguments url: URL, result: BackResult? = nil) {
+        Route.shared.open(url: url, hasParameters: false, result: result)
     }
-    
+        
     /// 打开有参路由
-    /// - Parameter url: 路由网址
-    public static func open(withArguments url: URL) {
-        Route.shared.open(url: url, hasParameters: true)
+    /// - Parameters:
+    ///   - url: 路由网址
+    ///   - result: 目标路由关闭后回调的数据
+    public static func open(withArguments url: URL, result: BackResult? = nil) {
+        Route.shared.open(url: url, hasParameters: true, result: result)
     }
     
+    /// 初始化方法私有化
     private init() {}
     
 }
@@ -42,26 +47,31 @@ extension Route {
     /// 私有单例
     private static let shared = Route()
     
-    /// 注册模块
-    /// - Parameter hasParameters: 是否有参数
-    private func registerModule(hasParameters: Bool) {
-        let routePattern = hasParameters ? routePatternWithArguments : routePatternNoArguments
-        JLRoutes.global().addRoute(routePattern) { return self.goTargetVC(parameters: $0) }
-    }
-    
     /// 打开URL
     /// - Parameters:
     ///   - url: url
     ///   - hasParameters: 是否有参数
-    private func open(url: URL, hasParameters: Bool) {
-        registerModule(hasParameters: hasParameters)
+    ///   - result: 目标路由关闭后回调的数据
+    private func open(url: URL, hasParameters: Bool, result: BackResult? = nil) {
+        registerModule(hasParameters: hasParameters, result: result)
         JLRoutes.global().routeURL(url)
+    }
+        
+    /// 注册模块
+    /// - Parameters:
+    ///   - hasParameters: 是否有参数
+    ///   - result: 目标路由关闭后回调的数据
+    private func registerModule(hasParameters: Bool, result: BackResult? = nil) {
+        let routePattern = hasParameters ? routePatternWithArguments : routePatternNoArguments
+        JLRoutes.global().addRoute(routePattern) { return self.goTargetVC(parameters: $0, result: result) }
     }
     
     /// 去目标控制器
-    /// - Parameter parameters: 参数
+    /// - Parameter:
+    ///   - parameters: 参数
+    ///   - result: 目标路由关闭后回调的数据
     /// - Returns: Bool
-    private func goTargetVC(parameters: [String: Any]? = nil) -> Bool {
+    private func goTargetVC(parameters: [String: Any]? = nil, result: BackResult? = nil) -> Bool {
         if let target = parameters?["target"] as? String, // 获取目标控制器的字符串名称
             let modal = parameters?["modal"] as? String, // 获取打开方式 present or push
             let targetVC = creatInstance(by: target) as? UIViewController, // 生成控制器
@@ -70,6 +80,7 @@ extension Route {
             
                 routeVC.arguments = parameters?["arguments"]
                 routeVC.modalType = Modal(rawValue: modal)
+                routeVC.result = result
                 
                 let currentVC = topViewController()
                 switch routeVC.modalType {
