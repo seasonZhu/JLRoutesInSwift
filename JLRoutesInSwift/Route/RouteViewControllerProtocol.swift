@@ -17,9 +17,9 @@ protocol RouteViewControllerProtocol {
     /// 传入参数
     var arguments: Any? {set get}
     
-    /// 控制打开方式 push or present
+    /// 路由打开方式 push or present
     var modalType: Modal! {set get}
     
-    /// 控制器关闭的回调数据
+    /// 路由关闭的回调数据
     var result: BackResult? {set get}
 }
