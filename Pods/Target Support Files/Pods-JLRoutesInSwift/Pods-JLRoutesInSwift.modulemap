@@ -1,0 +1,6 @@
+framework module Pods_JLRoutesInSwift {
+  umbrella header "Pods-JLRoutesInSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -56,6 +56,7 @@ extension ViewController {
     @objc
     func argumentPush() {
         let arguments = "这里push传递的是一个字符串"
+        /// 一定要addingPercentEncoding JLRoutes不能传递中文汉字
         let urlString = "JLRoutesInSwift://MouduleA/NextViewController/\(Modal.push.rawValue)/\(arguments)".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!
         let url = URL(string: urlString)!
         Route.open(withArguments: url) { (result) in

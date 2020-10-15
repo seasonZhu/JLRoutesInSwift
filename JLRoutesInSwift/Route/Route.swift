@@ -74,7 +74,7 @@ extension Route {
     private func goTargetVC(parameters: [String: Any]? = nil, result: BackResult? = nil) -> Bool {
         if let target = parameters?["target"] as? String, // 获取目标控制器的字符串名称
             let modal = parameters?["modal"] as? String, // 获取打开方式 present or push
-            let targetVC = creatInstance(by: target) as? UIViewController, // 生成控制器
+            let targetVC = createInstance(by: target) as? UIViewController, // 生成控制器
             var routeVC = targetVC as? RouteViewControllerProtocol // 判断控制器是否遵守协议
         {
             
@@ -105,7 +105,7 @@ extension Route {
     /// 通过字符串生成对应的控制器类,将泛型约束变窄,万一有一个非控制器类可以生成有正好遵守了RouteViewControllerProtocol,会出问题,改会原来的样子
     /// - Parameter className: 类名字符串
     /// - Returns: 类
-    private func creatInstance<T: NSObject>(by className: String) -> T? {
+    private func createInstance<T: NSObject>(by className: String) -> T? {
         guard let `class` = NSClassFromString(nameSpace + "." + className), let typeClass = `class` as? T.Type else {
             return nil
         }

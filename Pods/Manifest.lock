@@ -1,0 +1,20 @@
+PODS:
+  - Aspects (1.4.1)
+  - JLRoutes (2.1)
+
+DEPENDENCIES:
+  - Aspects
+  - JLRoutes
+
+SPEC REPOS:
+  trunk:
+    - Aspects
+    - JLRoutes
+
+SPEC CHECKSUMS:
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  JLRoutes: d755245322b94227662ea3e43492fdca94e05c5b
+
+PODFILE CHECKSUM: 37de6b697d244bdcdc5a0004f290c01697fad9a0
+
+COCOAPODS: 1.9.3
