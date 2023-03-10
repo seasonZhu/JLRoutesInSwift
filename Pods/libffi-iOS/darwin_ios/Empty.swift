@@ -1,0 +1,1 @@
+// This file is for avoiding compilation error when using static frameworks in pods.

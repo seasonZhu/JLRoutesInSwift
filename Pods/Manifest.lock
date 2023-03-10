@@ -1,20 +1,28 @@
 PODS:
   - Aspects (1.4.1)
+  - EasySwiftHook (3.3.2):
+    - libffi-iOS (~> 3.3.6-iOS)
   - JLRoutes (2.1)
+  - libffi-iOS (3.3.6-iOS)
 
 DEPENDENCIES:
   - Aspects
+  - EasySwiftHook
   - JLRoutes
 
 SPEC REPOS:
   trunk:
     - Aspects
+    - EasySwiftHook
     - JLRoutes
+    - libffi-iOS
 
 SPEC CHECKSUMS:
   Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  EasySwiftHook: dfb3d1451aa4630016c9d493742084e2151eb1c2
   JLRoutes: d755245322b94227662ea3e43492fdca94e05c5b
+  libffi-iOS: 2932b5feac77dc5de0eca4a72269e2c9928a26af
 
-PODFILE CHECKSUM: 37de6b697d244bdcdc5a0004f290c01697fad9a0
+PODFILE CHECKSUM: 93117cbde9ff8e9e3874fc7094127e4775fe10f9
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.11.3

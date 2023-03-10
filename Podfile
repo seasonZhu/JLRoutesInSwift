@@ -6,6 +6,7 @@ target 'JLRoutesInSwift' do
   use_frameworks!
   pod 'JLRoutes'
   pod 'Aspects'
+  pod 'EasySwiftHook'
   # Pods for JLRoutesInSwift
 
 end

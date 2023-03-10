@@ -8,7 +8,18 @@
 
 import UIKit
 
+import Aspects
+import EasySwiftHook
+
 class ViewController: UIViewController {
+    
+    private var token: EasySwiftHook.Token?
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        token?.cancelHook()
+        token = nil
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,6 +50,46 @@ class ViewController: UIViewController {
         argumentPresentButton.backgroundColor = UIColor.lightGray
         argumentPresentButton.addTarget(self, action: #selector(argumentPresent), for: .touchUpInside)
         view.addSubview(argumentPresentButton)
+        
+        /// swift中已经不能使用Aspects
+        
+//        let _ = try? UIApplication.shared.aspect_hook(#selector(UIApplication.shared.sendEvent(_:)), with: .positionBefore) { (aspectInfo: AspectInfo, event: UIEvent) -> Void in
+//            print(event)
+//        }
+        
+//        let _ = try? UIViewController.aspect_hook(#selector(viewWillAppear(_:)), with: .positionBefore) { (aspectInfo: AspectInfo, animate: Bool) -> Void in
+//            print(aspectInfo.instance())
+//        }
+        
+//        do {
+//            let token = try argumentPresentButton.aspect_hook(#selector(UIButton.setTitle(_:for:)), with: .positionBefore) { (aspectInfo: AspectInfo, title: String?, state: UIControl.State) -> Void in
+//                print(aspectInfo.instance())
+//            }
+//        } catch {
+//            print(error)
+//        }
+        
+        do {
+            let hookClosure = { object, selector, event in
+                    print("Nice to see you \(event)")
+                    print("The object is: \(object)")
+                    print("The selector is: \(selector)")
+                
+                if let touch = event.allTouches?.first,
+                   let view = touch.view {
+                    
+                    print("Event view:\(view)")
+                    
+                } else {
+                    object.sendEvent(event)
+                }
+                
+                } as @convention(block) (UIApplication, Selector, UIEvent) -> Void
+            
+            token = try hookBefore(targetClass: UIApplication.self, selector: #selector(UIApplication.sendEvent(_:)), closure: hookClosure)
+        } catch {
+            print(error)
+        }
     }
 }
 

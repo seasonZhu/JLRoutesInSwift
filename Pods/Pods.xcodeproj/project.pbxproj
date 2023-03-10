@@ -7,189 +7,401 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0125193F2CE2B3130E202CB468759270 /* JLRoutes.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7AAC79D301CBBD6B7FC2A783B45987 /* JLRoutes.m */; };
-		1F8D53F430B111DDE96534F2A5618B1A /* Pods-JLRoutesInSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F951DBEDF6E556D31BAF812267E70 /* Pods-JLRoutesInSwift-dummy.m */; };
-		35E0A3A14138D358A3004C7726FFE6D3 /* JLRParsingUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A77B31104503811B57EE5E10F34BF0 /* JLRParsingUtilities.m */; };
-		36EECEDBC33A687A138E4BEBFCF29832 /* JLRoutes-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 465134756986351300BE6B7F9624A3AA /* JLRoutes-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4317F03A36E76F7AC1D8BB6F56E2EBC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		4B96B7949D20C9140EDC36EE0FB34B73 /* JLRRouteDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = E2B73C8CECB3A6C23F47BF61F2EA5190 /* JLRRouteDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4CB4CA90CF62A51E973C03C38BEC9749 /* JLRParsingUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = C803DA5788F78C00073B1CACA6234104 /* JLRParsingUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4DC25533B63751EB66C6C6C973D037AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		533B3D5EA2C5DF73D47948C06F20D557 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		6B358FEECC978014321E943FBCE3E7A8 /* JLRRouteResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 89B544D16DA55E5962DB325AEC379730 /* JLRRouteResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		724C6F3FFEE834611903385ACED9A65F /* Aspects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 495BFD08FD16ED580E4865E123092DEA /* Aspects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		918C894667807974B80B5F6504E5B48E /* JLRoutes.h in Headers */ = {isa = PBXBuildFile; fileRef = D5B3389FECC3256BA1222359444C74F8 /* JLRoutes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0499EF0577F64DB374C97E14916A116 /* JLRRouteHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4BE4782B5882FFD26B9DEA470F9243 /* JLRRouteHandler.m */; };
-		A49CABC9087355456E30B703C69E155A /* JLRRouteResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 793B5498C50D45BE98FDA809C5912193 /* JLRRouteResponse.m */; };
-		A954361B6A6FD111452CB9DABC9B30F7 /* Aspects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B709D2580351689D98A6D728517723 /* Aspects-dummy.m */; };
-		B82A5D68D986C31F2C8DD8F32567F95E /* JLRoutes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C29ADAE4299E2A2C04AEC0BC2ACC63E /* JLRoutes-dummy.m */; };
-		B968B2F40C75DCFD7305A4790C627993 /* JLRRouteDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C7DF855628C5D4F6F092B7BF645555 /* JLRRouteDefinition.m */; };
-		D29807C0AF15AB9973D93D1416EF37EB /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = D80D1C1C0DCE4B05579E7CC6DFC960EF /* Aspects.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA2EA7466514A70AD6271EACCE3FC83D /* Pods-JLRoutesInSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29FAD180EA7AC1F1BAAD04FD1D61A400 /* Pods-JLRoutesInSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAC25556655D561E3A7D783D0E24EC3F /* JLRRouteHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 3904CFA4ABAF74673736B4FF2CD60579 /* JLRRouteHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E350CD07E06EEC066A4C90E5A8BF434D /* JLRRouteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0615276252A7A6C3E93928878B993B78 /* JLRRouteRequest.m */; };
-		F51A21D307B9275272758FF324F60B91 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 182760FBC34A6B1030F06134AF38F48C /* Aspects.m */; };
-		F7617878B6BE4EE0B8153F13FF6C53A1 /* JLRRouteRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D9DA92B4B9724571E12413C9C6BF3CF /* JLRRouteRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07443A7A65BF96B9D7F0AFC1949748C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0766BC16E4CFBA804BA1956DEA68E86A /* internal64.h in Headers */ = {isa = PBXBuildFile; fileRef = F990D9216966D2785B3845846F6BE37B /* internal64.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		09DE0D17B79A1F4D082F880F55F388D2 /* internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 3486093FCFE04639229DC4E7DC5668EA /* internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0C6CDE84D3B281DE5759125E0D674017 /* ffi.h in Headers */ = {isa = PBXBuildFile; fileRef = 95C68D6C56F7EB6C1EE2C4180D31F4AB /* ffi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F8FFB5835A4ADD4A46E40AA03727768 /* HookSpecificInstanceOC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A682C87C0A4DD9EA7EC538D57FB11C /* HookSpecificInstanceOC.swift */; };
+		1268BC3FD93B41277916923AD98F77A8 /* ffi_x86_64.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C89E3C2188005510214024A06345087 /* ffi_x86_64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15C0DBCB05E4157045AEFB39B2AA5F3C /* ffi_cfi.h in Headers */ = {isa = PBXBuildFile; fileRef = D549EC6BCC9F6CBE6859E30C340A6EE8 /* ffi_cfi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1872FC348E2D719A672F3E0020A13B1C /* SHObjectiveCUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEE1228CB80BDC8A400D46A977A6A57 /* SHObjectiveCUtilities.m */; };
+		19E6C70F591B3DE7CA46263396957FC4 /* JLRRouteHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 030D49858541F23E81915878360B418E /* JLRRouteHandler.m */; };
+		1A931B8FD9D3BCFF0C98306F4BC3B4DB /* Pods-JLRoutesInSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F951DBEDF6E556D31BAF812267E70 /* Pods-JLRoutesInSwift-dummy.m */; };
+		1B4F1A2D8C846BB92013EBCDA98322BC /* ffi_i386.c in Sources */ = {isa = PBXBuildFile; fileRef = E2F21DD82CE5B63EABE25E5DC8FB173D /* ffi_i386.c */; };
+		1D43E1A31E22757344CE5DABD86B82A9 /* java_raw_api.c in Sources */ = {isa = PBXBuildFile; fileRef = F31B1A9626279F54B15FCF8EF9B6AB24 /* java_raw_api.c */; };
+		218AAFD4C55A074825F329C60BE86B53 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8AC9E13F843DD013DFABF556E60EF9 /* Aspects.m */; };
+		23E272B6E4521E16A614459A76B8BE5F /* ffi_armv7.c in Sources */ = {isa = PBXBuildFile; fileRef = DAAA0C8935D18B75884B46E4F3EF29D2 /* ffi_armv7.c */; };
+		279FBFDFDE11794ADD1C0840D9592BF7 /* HookInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DDDCBA6A966499572DBF545E1FC981 /* HookInternal.swift */; };
+		291FA8876FC004B71632A2771568D30F /* JLRRouteRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F6B630A9D3744428070EE71D3A5049D /* JLRRouteRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32CD7A2F475F049A6D089B7CE044D11F /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = DDE4DCA61987E717F332ACEB6B44C92C /* Aspects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		388877DE051CDDFDAB6C7EF848EB2DE4 /* KVOWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F28D796A66942E94446A52D09238F79 /* KVOWrapper.swift */; };
+		38DD438EC85AB43A96D4DDDE3E25C79A /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB091DB61043C8D08CAC243A2A3249A /* Empty.swift */; };
+		3A5FDB81F6232576EEEC472A456132B2 /* dlmalloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DC1FEFDE55277D46AF7F656B900759F /* dlmalloc.c */; };
+		3EE4C44C277AA784789406514AE306D4 /* fficonfig_x86_64.h in Headers */ = {isa = PBXBuildFile; fileRef = 43271416756ECE43DD1823C4F5AC9077 /* fficonfig_x86_64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FF58F762FA24D2028B078B3E4810A53 /* InsteadHookClosureExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3407C5D8D031D63B2C1D6FB9AB55DE3A /* InsteadHookClosureExtension.swift */; };
+		41672CF038CED4FC3A3DCEF01153E78C /* ffi_arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = 4824660FB72149ADD838621A1B15B959 /* ffi_arm64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42B141EB6B1E50F3EAADA548E6F55EB9 /* JLRRouteResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5F51972795D5094F3E267774A4CDE /* JLRRouteResponse.m */; };
+		442A6C87FEE6107F0E84438251E5A7B2 /* ffiw64_x86_64.c in Sources */ = {isa = PBXBuildFile; fileRef = 958EDB645A4D88869B388F25AA813E0C /* ffiw64_x86_64.c */; };
+		494C3F18DCE585DF6F6FBBBA2C5AD1E6 /* libffi-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78327B685773CBDE7F656D9239B3FB5B /* libffi-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C0AB154E04335AB322EC07020FC3139 /* fficonfig_armv7.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ECD0ABE179C7A5BC121C130902BE8A0 /* fficonfig_armv7.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DFA5D1EA8F8F03454E2CD313A8DA3B2 /* JLRRouteResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = C84B9CCD6452A77F6718AD2FCEAA7C29 /* JLRRouteResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50106CA15B4B15B44EC89982FCEC791D /* OverrideSuperMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E2BB1BF9BE241B2DD7A3A146810BFE /* OverrideSuperMethod.swift */; };
+		51175228BDD66BBD655CB5304219A461 /* win64_x86_64.S in Sources */ = {isa = PBXBuildFile; fileRef = 6C258C38C1ED60D4CC8434481CFA6DE9 /* win64_x86_64.S */; };
+		52D631B0E15A288C808156AB7FC0667F /* ffitarget_arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E5797A6984BCB456A7F3E422FEB3E76 /* ffitarget_arm64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C7050EDCBFD7B7D6A93D1E17D7C4D30 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E4E8295394A5E4D23C8B3BCD9F82C2 /* Utilities.swift */; };
+		5E26D81A60C55788F863F1A1CBE817E4 /* ffitarget_armv7.h in Headers */ = {isa = PBXBuildFile; fileRef = FA5669D96A14333C443FA99765CB04BC /* ffitarget_armv7.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EAA83C0127233DA976D0D5379864457 /* JLRRouteDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = AE07F90934FDFD973E44657052C45BD1 /* JLRRouteDefinition.m */; };
+		5F4ECB04D8981705B41AA8C894B5C326 /* asmnames.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E16C0DC59FDD888BEDE0D36A911046 /* asmnames.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		611E6EC6D16C83A856549543109F699F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6602F04B23ED5D71E7CE8942CBD981AF /* FFICIFContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6E0A5D80D699A8C2C5011C067E0409 /* FFICIFContext.swift */; };
+		6AE486895FC78491156202632D440774 /* Aspects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C753A3ADE1A3EA766DB1A5472B1B088 /* Aspects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B64CCC2C4CD6040B76B85931BE2E992 /* HookClassMethodsOC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035494CAEAC325CACEBD2FD54B418BD9 /* HookClassMethodsOC.swift */; };
+		6B7E84D9EABF96F7868DF0BB3573FFF7 /* JLRoutes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B70DA2B03D51ACCA6396F6FFB8616263 /* JLRoutes-dummy.m */; };
+		6B8449227DF5DC90854A195F835A879B /* sysv_i386.S in Sources */ = {isa = PBXBuildFile; fileRef = EEB5CA5D33F9BCDFDB13D00861A1BB11 /* sysv_i386.S */; };
+		6C546D7CF1BE2F0C9D34105BEAD48871 /* fficonfig_arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = 060810A8B23390D6E0C70DE9085FADB0 /* fficonfig_arm64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71D0BEFF4FB6509D4F6CECAA197FE5EF /* SHObjectiveCUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 499BF8DAA4D6E4E1F433EA6F4C34CAE7 /* SHObjectiveCUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7452C1C6B108FC0BD1D8F495FEA99016 /* ffitarget_x86_64.h in Headers */ = {isa = PBXBuildFile; fileRef = E7B05A6C0122B7B68399B8877D66BEEC /* ffitarget_x86_64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75C45409904B12854E49D5BB1C55AD5E /* JLRoutes.m in Sources */ = {isa = PBXBuildFile; fileRef = BB60A42DA15B47176D8FC9976FCA3580 /* JLRoutes.m */; };
+		7A52FE8A1124B4D3D14F395DC2E26D09 /* closures.c in Sources */ = {isa = PBXBuildFile; fileRef = 60AE4F9C85E56BCE17489F06E45EB593 /* closures.c */; };
+		7CACDC0174D745F0386B7983E169863E /* fficonfig.h in Headers */ = {isa = PBXBuildFile; fileRef = DD9734846B0E79F22F07B8BCF3C26203 /* fficonfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EEC67113B050C649280EEE5ADCD5AAA /* DynamicClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4693BFADBBAD8E9B3AFB61D1E2408912 /* DynamicClass.swift */; };
+		807B61CF77713DC0C9FA58DE8695C651 /* sysv_armv7.S in Sources */ = {isa = PBXBuildFile; fileRef = 0028AEFD77C353BDFCE168241E3B924F /* sysv_armv7.S */; };
+		81773D52D4EF0FDA80247D5C0B2FD27E /* HookCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253B108BB08F5A9538CE1057EFEDA7A1 /* HookCommon.swift */; };
+		851B6CCDDB6D82DA792C8336DFFFD9C3 /* ffi64_x86_64.c in Sources */ = {isa = PBXBuildFile; fileRef = FD336EDA3EFB7DF5D304BB6DA5B8329D /* ffi64_x86_64.c */; };
+		86E73C6C9B9267BC0A26CDC69B07C5C8 /* HookAllInstancesOC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989D1145FCFA983B680A807291B66812 /* HookAllInstancesOC.swift */; };
+		8909094C6865F0066722FDEA6B54980E /* TargetObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94DD7F4B6CFB5B63D132C02DD572089 /* TargetObjectExtension.swift */; };
+		8B7DD3B16523D2EA66B6A54A439E8EB8 /* JLRRouteHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = DDACC6CE448A4D36D9B9D97B9DE6072F /* JLRRouteHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BC5E73C642D43DE0FB50E62AC7C6391 /* JLRParsingUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C12D48DBA53FE141351FAEEA7FA0AB69 /* JLRParsingUtilities.m */; };
+		8D515EEB254F3F4A0F638AD14ED36954 /* EasySwiftHook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 238202A64A6308F7F7E77B19DB369883 /* EasySwiftHook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F27A20BE4353845AB89B831D7C244B8 /* ffitarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 98522A62BCD9B41873ED2693B1345524 /* ffitarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95B122E8FE5248BED073AB9CB44B9600 /* SHFFITypeContext.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F3959BB4D654F320470D78D623E64C /* SHFFITypeContext.m */; };
+		9876C6A7D98B11476F12801B9B964F3E /* JLRRouteDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 12C407D9279DE5E79CB0C229AA82ECC5 /* JLRRouteDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A03578225DCAD058E1F199F5524D3A0 /* HookDeallocAfterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B49894BDD7C7DDD95F3B9C39E3BFD5 /* HookDeallocAfterDelegate.swift */; };
+		9C04E1C2CF9DDA67E625C93387E996F2 /* SHMethodSignature.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B11714BF135C76660FCEB541A3AE69 /* SHMethodSignature.m */; };
+		9EB962F1C6A7B82E4F6C8EC4ACBA1615 /* sysv_arm64.S in Sources */ = {isa = PBXBuildFile; fileRef = 666C51F21192C1AA94A40202CF7BE0E8 /* sysv_arm64.S */; };
+		A1BD3D277ED17747604CE72DB664310A /* ffi_armv7.h in Headers */ = {isa = PBXBuildFile; fileRef = A6AC138B275B475D6CBB23B03E0BABC6 /* ffi_armv7.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3230F303CEA124E2EA9B90018A793B5 /* HookSpecificInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDFEDE3C93A65FEEB6CD926294453C /* HookSpecificInstance.swift */; };
+		A993E6CFA97333E147908BC866D5522C /* ffi_arm64.c in Sources */ = {isa = PBXBuildFile; fileRef = D5DD551344CCB9B1F44783C7A98FB1F7 /* ffi_arm64.c */; };
+		AB30BE20F2B5698BA078B21F855513D7 /* SHMethodSignature.h in Headers */ = {isa = PBXBuildFile; fileRef = 74314459B81A1253249B2931CE05716C /* SHMethodSignature.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD3F9902B295A806C101F4641D167314 /* JLRoutes.h in Headers */ = {isa = PBXBuildFile; fileRef = 28BE81D8A6A2E2D23985AED8FFAE34BD /* JLRoutes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD72FDD25E389E9CFDD8725337422642 /* Signature.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F0CE33B18F67F9B050214F3AD1D578 /* Signature.swift */; };
+		B446C0637DECC8FCB9B1996A5978C5AF /* prep_cif.c in Sources */ = {isa = PBXBuildFile; fileRef = 85B42CF0BF98DB90E79CE49908BAD531 /* prep_cif.c */; };
+		B6DB24DD2D06BB7F6A84A8794068B2A3 /* JLRRouteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C62BAA0101D6F873A24E00064D828587 /* JLRRouteRequest.m */; };
+		B8B0E156F4BF202CBF6D121C4696E658 /* SHFFITypeContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CCCE60CEB907AF7214346EECF03EA6F /* SHFFITypeContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD7F78DDB7A2A8242DB0F88837C01C78 /* HookCommonOC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEBAD9F96AB8210A63126C287C22CC0 /* HookCommonOC.swift */; };
+		C779D32954B5DC700584D4AD6CDFED9E /* fficonfig_i386.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4A056A6CE875E70370D4A2F1B4DE2E /* fficonfig_i386.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C85DA1A46354A468969EACD179FE386F /* JLRParsingUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 98518B6956FBC107148DE606DE256925 /* JLRParsingUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C88A3A68F06F7AA41761D5837B44A9DA /* ParametersCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB2FE884562E13FCA3B264E14E02EDD /* ParametersCheck.swift */; };
+		CB581E7BC889FEB77B179025AB085B45 /* unix64_x86_64.S in Sources */ = {isa = PBXBuildFile; fileRef = 5286FE8621510B7D25C2F7DB6ED25EEC /* unix64_x86_64.S */; };
+		D270C03B98C066589D195E3E5A666087 /* HookContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2672CA73A7C90083BF2711F0A135BA /* HookContext.swift */; };
+		D299CFDF2B56E58839858C54A98292ED /* types.c in Sources */ = {isa = PBXBuildFile; fileRef = ED638E28F6E408E4E300A0799D361F91 /* types.c */; };
+		D36CC7D3528BF30B44799C9C7D7289D1 /* FFIClosureContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49416C587FAE3A96B52D7907D90F806E /* FFIClosureContext.swift */; };
+		D3F0049C2FECBC84FE4EB5811FEF8045 /* internal.h in Headers */ = {isa = PBXBuildFile; fileRef = AB91C7E831C37E209AE6007DC6ECE2CA /* internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DA8BD3C46FDC21A42D6DCF94098945E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DAB4F54F442A4A9CBDFEE8F057F139EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E17EC60B99886EFC4C863B5A830AA847 /* ffitarget_i386.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F28F754C4975A8DC870FD0BAA814F7E /* ffitarget_i386.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4FDF2396859217D35473A280DC1CE27 /* debug.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BB23DDCC1272614C653A61E65C152CF /* debug.c */; };
+		E8BDF388FD6B23326DC29F32350C1242 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E9547E5C6D96E6340C74A7900F97060A /* raw_api.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F7F5D62579CEEDB5848242AE0091B84 /* raw_api.c */; };
+		E961039E44B3628865CCC5F99C1BCF82 /* ffi_i386.h in Headers */ = {isa = PBXBuildFile; fileRef = D78008ADB5B1FED7A71F419FDD1D1817 /* ffi_i386.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC085FEF983DC8ECCFCD2E4BB4AFF017 /* EasySwiftHook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFE45EE9DCECBB48EBE9CB0AE399B0B /* EasySwiftHook-dummy.m */; };
+		F121FBD1AF4C6112B152C068F586F91D /* internal.h in Headers */ = {isa = PBXBuildFile; fileRef = C573EF4DFF6056128637A21ACF6CB978 /* internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F1245D2F46461E59626FC61A62386DBF /* JLRoutes-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F31CF5E64958FA84363373933F9BB874 /* JLRoutes-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1EFC0357C236119D052A8A80A126190 /* Aspects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A6E0877B02F775D13C9B3FCFEA9191 /* Aspects-dummy.m */; };
+		F316B6C00B0DF3F28F4C5EC2F93D6823 /* HookClassMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43049AEC543D9512D0D3E212D2A583B3 /* HookClassMethods.swift */; };
+		F6705684E46739673FFC963364848975 /* libffi-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EDFA4E64BCC052D87D5AC2CFAFAF66 /* libffi-iOS-dummy.m */; };
+		FC6AF32E9231136AF4A1522E9129A017 /* HookAllInstances.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7CE58922569A23AD9C846CF244C05C /* HookAllInstances.swift */; };
+		FD6933F3DC5F788479C2DD8F4C3D0DD3 /* ffi_common.h in Headers */ = {isa = PBXBuildFile; fileRef = 4847B2AEF0B1BEDB6A223A3FE4204527 /* ffi_common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE2D68AB89749A686325E77E0C67084B /* Pods-JLRoutesInSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29FAD180EA7AC1F1BAAD04FD1D61A400 /* Pods-JLRoutesInSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		39924649A28FE072FFA502B5A5706840 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 94C1BAA17BCEBC27586488A205D2E0CB;
-			remoteInfo = JLRoutes;
-		};
-		EFC643DD77BB45CD63B776570989C231 /* PBXContainerItemProxy */ = {
+		2D770FEDB7262C8B338670E03C5A8C8A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C6539905C4D50932B36244650B93C79B;
 			remoteInfo = Aspects;
 		};
+		48EEC2027BB66681EC07505316DFE3B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21C30B94C42FD068EB4F90A530EFDF3C;
+			remoteInfo = "libffi-iOS";
+		};
+		7B240E332E44BF86E23EAA29C589E87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61912FB8929D0BFB4AF6270E38922421;
+			remoteInfo = EasySwiftHook;
+		};
+		94DEEA4CCC35204584C08A1764E9F719 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21C30B94C42FD068EB4F90A530EFDF3C;
+			remoteInfo = "libffi-iOS";
+		};
+		BED038A527FD0A5FE34F5F44B23C491E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94C1BAA17BCEBC27586488A205D2E0CB;
+			remoteInfo = JLRoutes;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0615276252A7A6C3E93928878B993B78 /* JLRRouteRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLRRouteRequest.m; path = JLRoutes/Classes/JLRRouteRequest.m; sourceTree = "<group>"; };
-		0F1307922043CB06CBCA28226D08A277 /* Aspects.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Aspects.release.xcconfig; sourceTree = "<group>"; };
-		182760FBC34A6B1030F06134AF38F48C /* Aspects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
-		2405A674693EE12C002CE674B2341364 /* JLRoutes.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JLRoutes.modulemap; sourceTree = "<group>"; };
+		0028AEFD77C353BDFCE168241E3B924F /* sysv_armv7.S */ = {isa = PBXFileReference; includeInIndex = 1; name = sysv_armv7.S; path = darwin_ios/src/arm/sysv_armv7.S; sourceTree = "<group>"; };
+		030D49858541F23E81915878360B418E /* JLRRouteHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLRRouteHandler.m; path = JLRoutes/Classes/JLRRouteHandler.m; sourceTree = "<group>"; };
+		035494CAEAC325CACEBD2FD54B418BD9 /* HookClassMethodsOC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HookClassMethodsOC.swift; path = SwiftHook/Classes/PublicObjectiveCAPI/HookClassMethodsOC.swift; sourceTree = "<group>"; };
+		055413710C038AF10BB6FC9D43E570DE /* libffi-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libffi-iOS-prefix.pch"; sourceTree = "<group>"; };
+		060810A8B23390D6E0C70DE9085FADB0 /* fficonfig_arm64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fficonfig_arm64.h; path = darwin_ios/include/fficonfig_arm64.h; sourceTree = "<group>"; };
+		09EDFA4E64BCC052D87D5AC2CFAFAF66 /* libffi-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libffi-iOS-dummy.m"; sourceTree = "<group>"; };
+		0E1409904B4D186F6263DB392840FF44 /* EasySwiftHook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasySwiftHook-prefix.pch"; sourceTree = "<group>"; };
+		0E5797A6984BCB456A7F3E422FEB3E76 /* ffitarget_arm64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget_arm64.h; path = darwin_ios/include/ffitarget_arm64.h; sourceTree = "<group>"; };
+		0F6B630A9D3744428070EE71D3A5049D /* JLRRouteRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLRRouteRequest.h; path = JLRoutes/Classes/JLRRouteRequest.h; sourceTree = "<group>"; };
+		12C407D9279DE5E79CB0C229AA82ECC5 /* JLRRouteDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLRRouteDefinition.h; path = JLRoutes/Classes/JLRRouteDefinition.h; sourceTree = "<group>"; };
+		16CB9E34B72C77AD19C2596DFA5C88E3 /* JLRoutes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLRoutes.release.xcconfig; sourceTree = "<group>"; };
+		194255473CAA80389C595001AB31DDD6 /* EasySwiftHook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasySwiftHook.debug.xcconfig; sourceTree = "<group>"; };
+		1B6E0A5D80D699A8C2C5011C067E0409 /* FFICIFContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FFICIFContext.swift; path = SwiftHook/Classes/FFI/FFICIFContext.swift; sourceTree = "<group>"; };
+		1C3D296BE7BAFC49DA95A93F8213E078 /* libffi-iOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "libffi-iOS"; path = libffi_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C753A3ADE1A3EA766DB1A5472B1B088 /* Aspects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aspects-umbrella.h"; sourceTree = "<group>"; };
+		1DC1FEFDE55277D46AF7F656B900759F /* dlmalloc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = dlmalloc.c; path = darwin_common/src/dlmalloc.c; sourceTree = "<group>"; };
+		23221576A0D3E57AC4A5B42F097F5176 /* libffi-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "libffi-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		238202A64A6308F7F7E77B19DB369883 /* EasySwiftHook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasySwiftHook-umbrella.h"; sourceTree = "<group>"; };
+		24FD5739B1ACF3B3E5E417D45D0D04C5 /* JLRoutes-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLRoutes-prefix.pch"; sourceTree = "<group>"; };
+		253B108BB08F5A9538CE1057EFEDA7A1 /* HookCommon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HookCommon.swift; path = SwiftHook/Classes/Public/HookCommon.swift; sourceTree = "<group>"; };
+		28BE81D8A6A2E2D23985AED8FFAE34BD /* JLRoutes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLRoutes.h; path = JLRoutes/JLRoutes.h; sourceTree = "<group>"; };
 		29FAD180EA7AC1F1BAAD04FD1D61A400 /* Pods-JLRoutesInSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JLRoutesInSwift-umbrella.h"; sourceTree = "<group>"; };
+		2DC5F51972795D5094F3E267774A4CDE /* JLRRouteResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLRRouteResponse.m; path = JLRoutes/Classes/JLRRouteResponse.m; sourceTree = "<group>"; };
 		2F1E1E896353285D05AFCC637D74B2DD /* Pods-JLRoutesInSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLRoutesInSwift-Info.plist"; sourceTree = "<group>"; };
+		2F28D796A66942E94446A52D09238F79 /* KVOWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KVOWrapper.swift; path = SwiftHook/Classes/Hook/KVOWrapper.swift; sourceTree = "<group>"; };
 		2FC52C069F7E16E2A3B8809F426EA761 /* Pods-JLRoutesInSwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JLRoutesInSwift-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3757AFDF23B61CD52DEAB37132484C68 /* JLRoutes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLRoutes.release.xcconfig; sourceTree = "<group>"; };
+		32DDDCBA6A966499572DBF545E1FC981 /* HookInternal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HookInternal.swift; path = SwiftHook/Classes/Hook/HookInternal.swift; sourceTree = "<group>"; };
+		3407C5D8D031D63B2C1D6FB9AB55DE3A /* InsteadHookClosureExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InsteadHookClosureExtension.swift; path = SwiftHook/Classes/Hook/InsteadHookClosureExtension.swift; sourceTree = "<group>"; };
+		3486093FCFE04639229DC4E7DC5668EA /* internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = internal.h; path = darwin_ios/src/aarch64/internal.h; sourceTree = "<group>"; };
 		3818D76C604070C062D76A158FA19015 /* Pods-JLRoutesInSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLRoutesInSwift.release.xcconfig"; sourceTree = "<group>"; };
-		3904CFA4ABAF74673736B4FF2CD60579 /* JLRRouteHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLRRouteHandler.h; path = JLRoutes/Classes/JLRRouteHandler.h; sourceTree = "<group>"; };
-		465134756986351300BE6B7F9624A3AA /* JLRoutes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLRoutes-umbrella.h"; sourceTree = "<group>"; };
-		495BFD08FD16ED580E4865E123092DEA /* Aspects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aspects-umbrella.h"; sourceTree = "<group>"; };
-		4A941772F356E1E4A510F96A4E3CE1E8 /* Aspects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aspects-prefix.pch"; sourceTree = "<group>"; };
-		50FFBAE87DAAA5D19C6D04413ED5E6D3 /* JLRoutes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JLRoutes.framework; path = JLRoutes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		511C67A7C400D481FB761BBEC26B2341 /* JLRoutes-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JLRoutes-Info.plist"; sourceTree = "<group>"; };
-		5BD1730081639B43948A1C8D0EB3AD6F /* Aspects-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Aspects-Info.plist"; sourceTree = "<group>"; };
-		60A77B31104503811B57EE5E10F34BF0 /* JLRParsingUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLRParsingUtilities.m; path = JLRoutes/Classes/JLRParsingUtilities.m; sourceTree = "<group>"; };
-		76FB877FC0303C1EC3AC522CCCF2B42B /* Aspects.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Aspects.debug.xcconfig; sourceTree = "<group>"; };
-		793B5498C50D45BE98FDA809C5912193 /* JLRRouteResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLRRouteResponse.m; path = JLRoutes/Classes/JLRRouteResponse.m; sourceTree = "<group>"; };
-		7C29ADAE4299E2A2C04AEC0BC2ACC63E /* JLRoutes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JLRoutes-dummy.m"; sourceTree = "<group>"; };
-		7D9DA92B4B9724571E12413C9C6BF3CF /* JLRRouteRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLRRouteRequest.h; path = JLRoutes/Classes/JLRRouteRequest.h; sourceTree = "<group>"; };
-		89B544D16DA55E5962DB325AEC379730 /* JLRRouteResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLRRouteResponse.h; path = JLRoutes/Classes/JLRRouteResponse.h; sourceTree = "<group>"; };
-		9808BF74538141204E4EB5B49809FE77 /* Aspects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Aspects.framework; path = Aspects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C4BE4782B5882FFD26B9DEA470F9243 /* JLRRouteHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLRRouteHandler.m; path = JLRoutes/Classes/JLRRouteHandler.m; sourceTree = "<group>"; };
+		3E3FBBACE7BF59929651C5FF99DEAFFA /* EasySwiftHook */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EasySwiftHook; path = EasySwiftHook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43049AEC543D9512D0D3E212D2A583B3 /* HookClassMethods.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HookClassMethods.swift; path = SwiftHook/Classes/Public/HookClassMethods.swift; sourceTree = "<group>"; };
+		43271416756ECE43DD1823C4F5AC9077 /* fficonfig_x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fficonfig_x86_64.h; path = darwin_ios/include/fficonfig_x86_64.h; sourceTree = "<group>"; };
+		4693BFADBBAD8E9B3AFB61D1E2408912 /* DynamicClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicClass.swift; path = SwiftHook/Classes/Hook/DynamicClass.swift; sourceTree = "<group>"; };
+		47907CD8E1BB03E8BC50E78262DB1630 /* EasySwiftHook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EasySwiftHook.modulemap; sourceTree = "<group>"; };
+		4824660FB72149ADD838621A1B15B959 /* ffi_arm64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi_arm64.h; path = darwin_ios/include/ffi_arm64.h; sourceTree = "<group>"; };
+		4847B2AEF0B1BEDB6A223A3FE4204527 /* ffi_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi_common.h; path = darwin_common/include/ffi_common.h; sourceTree = "<group>"; };
+		49416C587FAE3A96B52D7907D90F806E /* FFIClosureContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FFIClosureContext.swift; path = SwiftHook/Classes/FFI/FFIClosureContext.swift; sourceTree = "<group>"; };
+		499BF8DAA4D6E4E1F433EA6F4C34CAE7 /* SHObjectiveCUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHObjectiveCUtilities.h; path = SwiftHook/Classes/OCSources/SHObjectiveCUtilities.h; sourceTree = "<group>"; };
+		4A515B886B9A62D4607A7ADE9E6B76D7 /* libffi-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "libffi-iOS.modulemap"; sourceTree = "<group>"; };
+		4ECD0ABE179C7A5BC121C130902BE8A0 /* fficonfig_armv7.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fficonfig_armv7.h; path = darwin_ios/include/fficonfig_armv7.h; sourceTree = "<group>"; };
+		50FFBAE87DAAA5D19C6D04413ED5E6D3 /* JLRoutes */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JLRoutes; path = JLRoutes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5286FE8621510B7D25C2F7DB6ED25EEC /* unix64_x86_64.S */ = {isa = PBXFileReference; includeInIndex = 1; name = unix64_x86_64.S; path = darwin_ios/src/x86/unix64_x86_64.S; sourceTree = "<group>"; };
+		555E0D1F08B1DF053B503152A0661650 /* JLRoutes-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JLRoutes-Info.plist"; sourceTree = "<group>"; };
+		5BB23DDCC1272614C653A61E65C152CF /* debug.c */ = {isa = PBXFileReference; includeInIndex = 1; name = debug.c; path = darwin_common/src/debug.c; sourceTree = "<group>"; };
+		5C8AC9E13F843DD013DFABF556E60EF9 /* Aspects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		5CFE45EE9DCECBB48EBE9CB0AE399B0B /* EasySwiftHook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasySwiftHook-dummy.m"; sourceTree = "<group>"; };
+		5F7F5D62579CEEDB5848242AE0091B84 /* raw_api.c */ = {isa = PBXFileReference; includeInIndex = 1; name = raw_api.c; path = darwin_common/src/raw_api.c; sourceTree = "<group>"; };
+		60AE4F9C85E56BCE17489F06E45EB593 /* closures.c */ = {isa = PBXFileReference; includeInIndex = 1; name = closures.c; path = darwin_common/src/closures.c; sourceTree = "<group>"; };
+		61E4E8295394A5E4D23C8B3BCD9F82C2 /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = SwiftHook/Classes/Utilities/Utilities.swift; sourceTree = "<group>"; };
+		65B11714BF135C76660FCEB541A3AE69 /* SHMethodSignature.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHMethodSignature.m; path = SwiftHook/Classes/OCSources/SHMethodSignature.m; sourceTree = "<group>"; };
+		666C51F21192C1AA94A40202CF7BE0E8 /* sysv_arm64.S */ = {isa = PBXFileReference; includeInIndex = 1; name = sysv_arm64.S; path = darwin_ios/src/aarch64/sysv_arm64.S; sourceTree = "<group>"; };
+		6C258C38C1ED60D4CC8434481CFA6DE9 /* win64_x86_64.S */ = {isa = PBXFileReference; includeInIndex = 1; name = win64_x86_64.S; path = darwin_ios/src/x86/win64_x86_64.S; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73A682C87C0A4DD9EA7EC538D57FB11C /* HookSpecificInstanceOC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HookSpecificInstanceOC.swift; path = SwiftHook/Classes/PublicObjectiveCAPI/HookSpecificInstanceOC.swift; sourceTree = "<group>"; };
+		74314459B81A1253249B2931CE05716C /* SHMethodSignature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHMethodSignature.h; path = SwiftHook/Classes/OCSources/SHMethodSignature.h; sourceTree = "<group>"; };
+		78327B685773CBDE7F656D9239B3FB5B /* libffi-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libffi-iOS-umbrella.h"; sourceTree = "<group>"; };
+		7CCCE60CEB907AF7214346EECF03EA6F /* SHFFITypeContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHFFITypeContext.h; path = SwiftHook/Classes/OCSources/SHFFITypeContext.h; sourceTree = "<group>"; };
+		84C10B1D55B502B36E0034BC8D11E171 /* EasySwiftHook-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EasySwiftHook-Info.plist"; sourceTree = "<group>"; };
+		858BC362733984FD39FD5F8AA82E5444 /* Aspects.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Aspects.debug.xcconfig; sourceTree = "<group>"; };
+		85B42CF0BF98DB90E79CE49908BAD531 /* prep_cif.c */ = {isa = PBXFileReference; includeInIndex = 1; name = prep_cif.c; path = darwin_common/src/prep_cif.c; sourceTree = "<group>"; };
+		8A4A056A6CE875E70370D4A2F1B4DE2E /* fficonfig_i386.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fficonfig_i386.h; path = darwin_ios/include/fficonfig_i386.h; sourceTree = "<group>"; };
+		8EF514802989575C970CBFA9E6962A0A /* libffi-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "libffi-iOS-Info.plist"; sourceTree = "<group>"; };
+		8F28F754C4975A8DC870FD0BAA814F7E /* ffitarget_i386.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget_i386.h; path = darwin_ios/include/ffitarget_i386.h; sourceTree = "<group>"; };
+		958EDB645A4D88869B388F25AA813E0C /* ffiw64_x86_64.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ffiw64_x86_64.c; path = darwin_ios/src/x86/ffiw64_x86_64.c; sourceTree = "<group>"; };
+		95C68D6C56F7EB6C1EE2C4180D31F4AB /* ffi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi.h; path = darwin_common/include/ffi.h; sourceTree = "<group>"; };
+		9808BF74538141204E4EB5B49809FE77 /* Aspects */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Aspects; path = Aspects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98518B6956FBC107148DE606DE256925 /* JLRParsingUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLRParsingUtilities.h; path = JLRoutes/Classes/JLRParsingUtilities.h; sourceTree = "<group>"; };
+		98522A62BCD9B41873ED2693B1345524 /* ffitarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget.h; path = darwin_common/include/ffitarget.h; sourceTree = "<group>"; };
+		989D1145FCFA983B680A807291B66812 /* HookAllInstancesOC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HookAllInstancesOC.swift; path = SwiftHook/Classes/PublicObjectiveCAPI/HookAllInstancesOC.swift; sourceTree = "<group>"; };
+		9C89E3C2188005510214024A06345087 /* ffi_x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi_x86_64.h; path = darwin_ios/include/ffi_x86_64.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F15ACA88C629EEB49220FCD7C651F75 /* EasySwiftHook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasySwiftHook.release.xcconfig; sourceTree = "<group>"; };
 		A2460AE3E7FECE9980960E3D4A097BAB /* Pods-JLRoutesInSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JLRoutesInSwift.modulemap"; sourceTree = "<group>"; };
-		A2B709D2580351689D98A6D728517723 /* Aspects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Aspects-dummy.m"; sourceTree = "<group>"; };
-		AA7AAC79D301CBBD6B7FC2A783B45987 /* JLRoutes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLRoutes.m; path = JLRoutes/JLRoutes.m; sourceTree = "<group>"; };
-		AAADDC9A650318BF33E0AD1C2793C746 /* Aspects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Aspects.modulemap; sourceTree = "<group>"; };
+		A49B3CEE9D94F037CC840A6B8E3F5ADC /* libffi-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "libffi-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		A4E2BB1BF9BE241B2DD7A3A146810BFE /* OverrideSuperMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverrideSuperMethod.swift; path = SwiftHook/Classes/Hook/OverrideSuperMethod.swift; sourceTree = "<group>"; };
+		A6AC138B275B475D6CBB23B03E0BABC6 /* ffi_armv7.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi_armv7.h; path = darwin_ios/include/ffi_armv7.h; sourceTree = "<group>"; };
+		A9A6E0877B02F775D13C9B3FCFEA9191 /* Aspects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Aspects-dummy.m"; sourceTree = "<group>"; };
+		AA2672CA73A7C90083BF2711F0A135BA /* HookContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HookContext.swift; path = SwiftHook/Classes/Hook/HookContext.swift; sourceTree = "<group>"; };
+		AA5EAD56455AD3906EDC9BF3A5FBE3BD /* JLRoutes.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JLRoutes.modulemap; sourceTree = "<group>"; };
 		AB89A2251ED41A9B1BC1E611765AB753 /* Pods-JLRoutesInSwift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLRoutesInSwift-frameworks.sh"; sourceTree = "<group>"; };
+		AB91C7E831C37E209AE6007DC6ECE2CA /* internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = internal.h; path = darwin_ios/src/arm/internal.h; sourceTree = "<group>"; };
+		AE07F90934FDFD973E44657052C45BD1 /* JLRRouteDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLRRouteDefinition.m; path = JLRoutes/Classes/JLRRouteDefinition.m; sourceTree = "<group>"; };
+		B0F58BEFA12CE7A360AF1F6DBE607A91 /* Aspects.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Aspects.release.xcconfig; sourceTree = "<group>"; };
+		B6F3959BB4D654F320470D78D623E64C /* SHFFITypeContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHFFITypeContext.m; path = SwiftHook/Classes/OCSources/SHFFITypeContext.m; sourceTree = "<group>"; };
+		B70DA2B03D51ACCA6396F6FFB8616263 /* JLRoutes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JLRoutes-dummy.m"; sourceTree = "<group>"; };
 		B8C4A64DB38D55F5E1245E42D80D8894 /* Pods-JLRoutesInSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLRoutesInSwift.debug.xcconfig"; sourceTree = "<group>"; };
-		C3FC7F842AEB5E16356B195144559729 /* JLRoutes-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLRoutes-prefix.pch"; sourceTree = "<group>"; };
+		B94DD7F4B6CFB5B63D132C02DD572089 /* TargetObjectExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TargetObjectExtension.swift; path = SwiftHook/Classes/Hook/TargetObjectExtension.swift; sourceTree = "<group>"; };
+		BB60A42DA15B47176D8FC9976FCA3580 /* JLRoutes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLRoutes.m; path = JLRoutes/JLRoutes.m; sourceTree = "<group>"; };
+		C12D48DBA53FE141351FAEEA7FA0AB69 /* JLRParsingUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLRParsingUtilities.m; path = JLRoutes/Classes/JLRParsingUtilities.m; sourceTree = "<group>"; };
+		C573EF4DFF6056128637A21ACF6CB978 /* internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = internal.h; path = darwin_ios/src/x86/internal.h; sourceTree = "<group>"; };
 		C5CD953BB122CEA6F12CEC413F55D213 /* Pods-JLRoutesInSwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLRoutesInSwift-acknowledgements.plist"; sourceTree = "<group>"; };
-		C803DA5788F78C00073B1CACA6234104 /* JLRParsingUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLRParsingUtilities.h; path = JLRoutes/Classes/JLRParsingUtilities.h; sourceTree = "<group>"; };
-		CE98E85D8B98E19D6064E5CFD0AA38A3 /* JLRoutes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLRoutes.debug.xcconfig; sourceTree = "<group>"; };
-		D5B3389FECC3256BA1222359444C74F8 /* JLRoutes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLRoutes.h; path = JLRoutes/JLRoutes.h; sourceTree = "<group>"; };
-		D80D1C1C0DCE4B05579E7CC6DFC960EF /* Aspects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		C62BAA0101D6F873A24E00064D828587 /* JLRRouteRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLRRouteRequest.m; path = JLRoutes/Classes/JLRRouteRequest.m; sourceTree = "<group>"; };
+		C84B9CCD6452A77F6718AD2FCEAA7C29 /* JLRRouteResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLRRouteResponse.h; path = JLRoutes/Classes/JLRRouteResponse.h; sourceTree = "<group>"; };
+		C8B07BE648A9D31BE3A92A1E5025EFF8 /* Aspects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aspects-prefix.pch"; sourceTree = "<group>"; };
+		CDA4D8474CE24ED66E0F885979F270A3 /* Aspects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Aspects.modulemap; sourceTree = "<group>"; };
+		D3BDFEDE3C93A65FEEB6CD926294453C /* HookSpecificInstance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HookSpecificInstance.swift; path = SwiftHook/Classes/Public/HookSpecificInstance.swift; sourceTree = "<group>"; };
+		D549EC6BCC9F6CBE6859E30C340A6EE8 /* ffi_cfi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi_cfi.h; path = darwin_common/include/ffi_cfi.h; sourceTree = "<group>"; };
+		D5DD551344CCB9B1F44783C7A98FB1F7 /* ffi_arm64.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ffi_arm64.c; path = darwin_ios/src/aarch64/ffi_arm64.c; sourceTree = "<group>"; };
+		D6E16C0DC59FDD888BEDE0D36A911046 /* asmnames.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asmnames.h; path = darwin_ios/src/x86/asmnames.h; sourceTree = "<group>"; };
+		D78008ADB5B1FED7A71F419FDD1D1817 /* ffi_i386.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi_i386.h; path = darwin_ios/include/ffi_i386.h; sourceTree = "<group>"; };
+		D8F0CE33B18F67F9B050214F3AD1D578 /* Signature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Signature.swift; path = SwiftHook/Classes/Signature/Signature.swift; sourceTree = "<group>"; };
+		DAAA0C8935D18B75884B46E4F3EF29D2 /* ffi_armv7.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ffi_armv7.c; path = darwin_ios/src/arm/ffi_armv7.c; sourceTree = "<group>"; };
 		DD4F951DBEDF6E556D31BAF812267E70 /* Pods-JLRoutesInSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JLRoutesInSwift-dummy.m"; sourceTree = "<group>"; };
-		E2B73C8CECB3A6C23F47BF61F2EA5190 /* JLRRouteDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLRRouteDefinition.h; path = JLRoutes/Classes/JLRRouteDefinition.h; sourceTree = "<group>"; };
-		E7C7DF855628C5D4F6F092B7BF645555 /* JLRRouteDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JLRRouteDefinition.m; path = JLRoutes/Classes/JLRRouteDefinition.m; sourceTree = "<group>"; };
-		F6C0D10CF000E71FBBCFDC8B8F25C8A6 /* Pods_JLRoutesInSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JLRoutesInSwift.framework; path = "Pods-JLRoutesInSwift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9734846B0E79F22F07B8BCF3C26203 /* fficonfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fficonfig.h; path = darwin_common/include/fficonfig.h; sourceTree = "<group>"; };
+		DDACC6CE448A4D36D9B9D97B9DE6072F /* JLRRouteHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLRRouteHandler.h; path = JLRoutes/Classes/JLRRouteHandler.h; sourceTree = "<group>"; };
+		DDE4DCA61987E717F332ACEB6B44C92C /* Aspects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		DFE42BDEB12245E96E2B537D7A3387DE /* Aspects-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Aspects-Info.plist"; sourceTree = "<group>"; };
+		E2F21DD82CE5B63EABE25E5DC8FB173D /* ffi_i386.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ffi_i386.c; path = darwin_ios/src/x86/ffi_i386.c; sourceTree = "<group>"; };
+		E7B05A6C0122B7B68399B8877D66BEEC /* ffitarget_x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget_x86_64.h; path = darwin_ios/include/ffitarget_x86_64.h; sourceTree = "<group>"; };
+		ECB2FE884562E13FCA3B264E14E02EDD /* ParametersCheck.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParametersCheck.swift; path = SwiftHook/Classes/Pamameter/ParametersCheck.swift; sourceTree = "<group>"; };
+		ED638E28F6E408E4E300A0799D361F91 /* types.c */ = {isa = PBXFileReference; includeInIndex = 1; name = types.c; path = darwin_common/src/types.c; sourceTree = "<group>"; };
+		ED7CE58922569A23AD9C846CF244C05C /* HookAllInstances.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HookAllInstances.swift; path = SwiftHook/Classes/Public/HookAllInstances.swift; sourceTree = "<group>"; };
+		EEB5CA5D33F9BCDFDB13D00861A1BB11 /* sysv_i386.S */ = {isa = PBXFileReference; includeInIndex = 1; name = sysv_i386.S; path = darwin_ios/src/x86/sysv_i386.S; sourceTree = "<group>"; };
+		EF0E7DA65D9444C5981C5061B29319EE /* JLRoutes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLRoutes.debug.xcconfig; sourceTree = "<group>"; };
+		F2B49894BDD7C7DDD95F3B9C39E3BFD5 /* HookDeallocAfterDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HookDeallocAfterDelegate.swift; path = SwiftHook/Classes/Hook/HookDeallocAfterDelegate.swift; sourceTree = "<group>"; };
+		F31B1A9626279F54B15FCF8EF9B6AB24 /* java_raw_api.c */ = {isa = PBXFileReference; includeInIndex = 1; name = java_raw_api.c; path = darwin_common/src/java_raw_api.c; sourceTree = "<group>"; };
+		F31CF5E64958FA84363373933F9BB874 /* JLRoutes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLRoutes-umbrella.h"; sourceTree = "<group>"; };
+		F6C0D10CF000E71FBBCFDC8B8F25C8A6 /* Pods-JLRoutesInSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JLRoutesInSwift"; path = Pods_JLRoutesInSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F990D9216966D2785B3845846F6BE37B /* internal64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = internal64.h; path = darwin_ios/src/x86/internal64.h; sourceTree = "<group>"; };
+		FA5669D96A14333C443FA99765CB04BC /* ffitarget_armv7.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget_armv7.h; path = darwin_ios/include/ffitarget_armv7.h; sourceTree = "<group>"; };
+		FBEE1228CB80BDC8A400D46A977A6A57 /* SHObjectiveCUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHObjectiveCUtilities.m; path = SwiftHook/Classes/OCSources/SHObjectiveCUtilities.m; sourceTree = "<group>"; };
+		FD336EDA3EFB7DF5D304BB6DA5B8329D /* ffi64_x86_64.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ffi64_x86_64.c; path = darwin_ios/src/x86/ffi64_x86_64.c; sourceTree = "<group>"; };
+		FDEBAD9F96AB8210A63126C287C22CC0 /* HookCommonOC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HookCommonOC.swift; path = SwiftHook/Classes/PublicObjectiveCAPI/HookCommonOC.swift; sourceTree = "<group>"; };
+		FEB091DB61043C8D08CAC243A2A3249A /* Empty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Empty.swift; path = darwin_ios/Empty.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1D8F500BE23EC9D7D5A920379E0D2A3C /* Frameworks */ = {
+		064DA99A254FF9EC315176BED08CCDCB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4317F03A36E76F7AC1D8BB6F56E2EBC7 /* Foundation.framework in Frameworks */,
+				07443A7A65BF96B9D7F0AFC1949748C5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9943FC1B865C20DF2ED50FB7E60CBB47 /* Frameworks */ = {
+		06F9D7250D5E6B0FBE335AA50C02772C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				533B3D5EA2C5DF73D47948C06F20D557 /* Foundation.framework in Frameworks */,
+				611E6EC6D16C83A856549543109F699F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB05557FF1B6C12CDE3C546DB614D840 /* Frameworks */ = {
+		1B9826FF94F31F3A1A796B0892F55B04 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DC25533B63751EB66C6C6C973D037AF /* Foundation.framework in Frameworks */,
+				DAB4F54F442A4A9CBDFEE8F057F139EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77C3B4399728E0AD3106AA3DE62F6621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8BDF388FD6B23326DC29F32350C1242 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B9E49BB799F03FCA0ADEDEC7BBEBCCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8BD3C46FDC21A42D6DCF94098945E6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		068F8C760287BB90D8E302B04AE8A8EB /* Support Files */ = {
+		20D4A9B43A6D66C054B7A88DA462C419 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2405A674693EE12C002CE674B2341364 /* JLRoutes.modulemap */,
-				7C29ADAE4299E2A2C04AEC0BC2ACC63E /* JLRoutes-dummy.m */,
-				511C67A7C400D481FB761BBEC26B2341 /* JLRoutes-Info.plist */,
-				C3FC7F842AEB5E16356B195144559729 /* JLRoutes-prefix.pch */,
-				465134756986351300BE6B7F9624A3AA /* JLRoutes-umbrella.h */,
-				CE98E85D8B98E19D6064E5CFD0AA38A3 /* JLRoutes.debug.xcconfig */,
-				3757AFDF23B61CD52DEAB37132484C68 /* JLRoutes.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/JLRoutes";
-			sourceTree = "<group>";
-		};
-		1D5B35E1E0694B9E48781E910A4FF52B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F86F10BA93D3C72B9222BFACFE9603AF /* Aspects */,
-				5F1BFF4615B884585EDA6299A102F5DC /* JLRoutes */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		292D9BFC42E060C8FBDD242F6900D61D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AAADDC9A650318BF33E0AD1C2793C746 /* Aspects.modulemap */,
-				A2B709D2580351689D98A6D728517723 /* Aspects-dummy.m */,
-				5BD1730081639B43948A1C8D0EB3AD6F /* Aspects-Info.plist */,
-				4A941772F356E1E4A510F96A4E3CE1E8 /* Aspects-prefix.pch */,
-				495BFD08FD16ED580E4865E123092DEA /* Aspects-umbrella.h */,
-				76FB877FC0303C1EC3AC522CCCF2B42B /* Aspects.debug.xcconfig */,
-				0F1307922043CB06CBCA28226D08A277 /* Aspects.release.xcconfig */,
+				CDA4D8474CE24ED66E0F885979F270A3 /* Aspects.modulemap */,
+				A9A6E0877B02F775D13C9B3FCFEA9191 /* Aspects-dummy.m */,
+				DFE42BDEB12245E96E2B537D7A3387DE /* Aspects-Info.plist */,
+				C8B07BE648A9D31BE3A92A1E5025EFF8 /* Aspects-prefix.pch */,
+				1C753A3ADE1A3EA766DB1A5472B1B088 /* Aspects-umbrella.h */,
+				858BC362733984FD39FD5F8AA82E5444 /* Aspects.debug.xcconfig */,
+				B0F58BEFA12CE7A360AF1F6DBE607A91 /* Aspects.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Aspects";
 			sourceTree = "<group>";
 		};
-		563BA85EFCB1895E20E521B654AA6C6A /* Products */ = {
+		3D2C970E19B2CB8D4690801A65CCAFD6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9808BF74538141204E4EB5B49809FE77 /* Aspects.framework */,
-				50FFBAE87DAAA5D19C6D04413ED5E6D3 /* JLRoutes.framework */,
-				F6C0D10CF000E71FBBCFDC8B8F25C8A6 /* Pods_JLRoutesInSwift.framework */,
+				AA5EAD56455AD3906EDC9BF3A5FBE3BD /* JLRoutes.modulemap */,
+				B70DA2B03D51ACCA6396F6FFB8616263 /* JLRoutes-dummy.m */,
+				555E0D1F08B1DF053B503152A0661650 /* JLRoutes-Info.plist */,
+				24FD5739B1ACF3B3E5E417D45D0D04C5 /* JLRoutes-prefix.pch */,
+				F31CF5E64958FA84363373933F9BB874 /* JLRoutes-umbrella.h */,
+				EF0E7DA65D9444C5981C5061B29319EE /* JLRoutes.debug.xcconfig */,
+				16CB9E34B72C77AD19C2596DFA5C88E3 /* JLRoutes.release.xcconfig */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/JLRoutes";
 			sourceTree = "<group>";
 		};
-		5F1BFF4615B884585EDA6299A102F5DC /* JLRoutes */ = {
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				D5B3389FECC3256BA1222359444C74F8 /* JLRoutes.h */,
-				AA7AAC79D301CBBD6B7FC2A783B45987 /* JLRoutes.m */,
-				C803DA5788F78C00073B1CACA6234104 /* JLRParsingUtilities.h */,
-				60A77B31104503811B57EE5E10F34BF0 /* JLRParsingUtilities.m */,
-				E2B73C8CECB3A6C23F47BF61F2EA5190 /* JLRRouteDefinition.h */,
-				E7C7DF855628C5D4F6F092B7BF645555 /* JLRRouteDefinition.m */,
-				3904CFA4ABAF74673736B4FF2CD60579 /* JLRRouteHandler.h */,
-				9C4BE4782B5882FFD26B9DEA470F9243 /* JLRRouteHandler.m */,
-				7D9DA92B4B9724571E12413C9C6BF3CF /* JLRRouteRequest.h */,
-				0615276252A7A6C3E93928878B993B78 /* JLRRouteRequest.m */,
-				89B544D16DA55E5962DB325AEC379730 /* JLRRouteResponse.h */,
-				793B5498C50D45BE98FDA809C5912193 /* JLRRouteResponse.m */,
-				068F8C760287BB90D8E302B04AE8A8EB /* Support Files */,
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
-			name = JLRoutes;
-			path = JLRoutes;
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5ACE6A540C90C01220EA7877F40EBEBD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A515B886B9A62D4607A7ADE9E6B76D7 /* libffi-iOS.modulemap */,
+				09EDFA4E64BCC052D87D5AC2CFAFAF66 /* libffi-iOS-dummy.m */,
+				8EF514802989575C970CBFA9E6962A0A /* libffi-iOS-Info.plist */,
+				055413710C038AF10BB6FC9D43E570DE /* libffi-iOS-prefix.pch */,
+				78327B685773CBDE7F656D9239B3FB5B /* libffi-iOS-umbrella.h */,
+				23221576A0D3E57AC4A5B42F097F5176 /* libffi-iOS.debug.xcconfig */,
+				A49B3CEE9D94F037CC840A6B8E3F5ADC /* libffi-iOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/libffi-iOS";
+			sourceTree = "<group>";
+		};
+		8060551D1CE7B73DA03C1B83A56B189E /* EasySwiftHook */ = {
+			isa = PBXGroup;
+			children = (
+				4693BFADBBAD8E9B3AFB61D1E2408912 /* DynamicClass.swift */,
+				1B6E0A5D80D699A8C2C5011C067E0409 /* FFICIFContext.swift */,
+				49416C587FAE3A96B52D7907D90F806E /* FFIClosureContext.swift */,
+				ED7CE58922569A23AD9C846CF244C05C /* HookAllInstances.swift */,
+				989D1145FCFA983B680A807291B66812 /* HookAllInstancesOC.swift */,
+				43049AEC543D9512D0D3E212D2A583B3 /* HookClassMethods.swift */,
+				035494CAEAC325CACEBD2FD54B418BD9 /* HookClassMethodsOC.swift */,
+				253B108BB08F5A9538CE1057EFEDA7A1 /* HookCommon.swift */,
+				FDEBAD9F96AB8210A63126C287C22CC0 /* HookCommonOC.swift */,
+				AA2672CA73A7C90083BF2711F0A135BA /* HookContext.swift */,
+				F2B49894BDD7C7DDD95F3B9C39E3BFD5 /* HookDeallocAfterDelegate.swift */,
+				32DDDCBA6A966499572DBF545E1FC981 /* HookInternal.swift */,
+				D3BDFEDE3C93A65FEEB6CD926294453C /* HookSpecificInstance.swift */,
+				73A682C87C0A4DD9EA7EC538D57FB11C /* HookSpecificInstanceOC.swift */,
+				3407C5D8D031D63B2C1D6FB9AB55DE3A /* InsteadHookClosureExtension.swift */,
+				2F28D796A66942E94446A52D09238F79 /* KVOWrapper.swift */,
+				A4E2BB1BF9BE241B2DD7A3A146810BFE /* OverrideSuperMethod.swift */,
+				ECB2FE884562E13FCA3B264E14E02EDD /* ParametersCheck.swift */,
+				7CCCE60CEB907AF7214346EECF03EA6F /* SHFFITypeContext.h */,
+				B6F3959BB4D654F320470D78D623E64C /* SHFFITypeContext.m */,
+				74314459B81A1253249B2931CE05716C /* SHMethodSignature.h */,
+				65B11714BF135C76660FCEB541A3AE69 /* SHMethodSignature.m */,
+				499BF8DAA4D6E4E1F433EA6F4C34CAE7 /* SHObjectiveCUtilities.h */,
+				FBEE1228CB80BDC8A400D46A977A6A57 /* SHObjectiveCUtilities.m */,
+				D8F0CE33B18F67F9B050214F3AD1D578 /* Signature.swift */,
+				B94DD7F4B6CFB5B63D132C02DD572089 /* TargetObjectExtension.swift */,
+				61E4E8295394A5E4D23C8B3BCD9F82C2 /* Utilities.swift */,
+				E56A64116D8990D8FEB88E5555828892 /* Support Files */,
+			);
+			name = EasySwiftHook;
+			path = EasySwiftHook;
 			sourceTree = "<group>";
 		};
 		8704DD86BEC4F41B37B7E4B54479831A /* Targets Support Files */ = {
@@ -200,12 +412,97 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		9DE320DD46874D8827D8463FF3510E2A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				F6C4622A27652021B019281289AE0788 /* Aspects */,
+				8060551D1CE7B73DA03C1B83A56B189E /* EasySwiftHook */,
+				BC298DCA2CB13E78D198F28E2D0F7815 /* JLRoutes */,
+				C7247B1FAFD0D509D27A9D57F0F98CB4 /* libffi-iOS */,
 			);
-			name = iOS;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A5F62860B4FC1DDA5E9203C016523BD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9808BF74538141204E4EB5B49809FE77 /* Aspects */,
+				3E3FBBACE7BF59929651C5FF99DEAFFA /* EasySwiftHook */,
+				50FFBAE87DAAA5D19C6D04413ED5E6D3 /* JLRoutes */,
+				1C3D296BE7BAFC49DA95A93F8213E078 /* libffi-iOS */,
+				F6C0D10CF000E71FBBCFDC8B8F25C8A6 /* Pods-JLRoutesInSwift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC298DCA2CB13E78D198F28E2D0F7815 /* JLRoutes */ = {
+			isa = PBXGroup;
+			children = (
+				28BE81D8A6A2E2D23985AED8FFAE34BD /* JLRoutes.h */,
+				BB60A42DA15B47176D8FC9976FCA3580 /* JLRoutes.m */,
+				98518B6956FBC107148DE606DE256925 /* JLRParsingUtilities.h */,
+				C12D48DBA53FE141351FAEEA7FA0AB69 /* JLRParsingUtilities.m */,
+				12C407D9279DE5E79CB0C229AA82ECC5 /* JLRRouteDefinition.h */,
+				AE07F90934FDFD973E44657052C45BD1 /* JLRRouteDefinition.m */,
+				DDACC6CE448A4D36D9B9D97B9DE6072F /* JLRRouteHandler.h */,
+				030D49858541F23E81915878360B418E /* JLRRouteHandler.m */,
+				0F6B630A9D3744428070EE71D3A5049D /* JLRRouteRequest.h */,
+				C62BAA0101D6F873A24E00064D828587 /* JLRRouteRequest.m */,
+				C84B9CCD6452A77F6718AD2FCEAA7C29 /* JLRRouteResponse.h */,
+				2DC5F51972795D5094F3E267774A4CDE /* JLRRouteResponse.m */,
+				3D2C970E19B2CB8D4690801A65CCAFD6 /* Support Files */,
+			);
+			name = JLRoutes;
+			path = JLRoutes;
+			sourceTree = "<group>";
+		};
+		C7247B1FAFD0D509D27A9D57F0F98CB4 /* libffi-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6E16C0DC59FDD888BEDE0D36A911046 /* asmnames.h */,
+				60AE4F9C85E56BCE17489F06E45EB593 /* closures.c */,
+				5BB23DDCC1272614C653A61E65C152CF /* debug.c */,
+				1DC1FEFDE55277D46AF7F656B900759F /* dlmalloc.c */,
+				FEB091DB61043C8D08CAC243A2A3249A /* Empty.swift */,
+				95C68D6C56F7EB6C1EE2C4180D31F4AB /* ffi.h */,
+				FD336EDA3EFB7DF5D304BB6DA5B8329D /* ffi64_x86_64.c */,
+				D5DD551344CCB9B1F44783C7A98FB1F7 /* ffi_arm64.c */,
+				4824660FB72149ADD838621A1B15B959 /* ffi_arm64.h */,
+				DAAA0C8935D18B75884B46E4F3EF29D2 /* ffi_armv7.c */,
+				A6AC138B275B475D6CBB23B03E0BABC6 /* ffi_armv7.h */,
+				D549EC6BCC9F6CBE6859E30C340A6EE8 /* ffi_cfi.h */,
+				4847B2AEF0B1BEDB6A223A3FE4204527 /* ffi_common.h */,
+				E2F21DD82CE5B63EABE25E5DC8FB173D /* ffi_i386.c */,
+				D78008ADB5B1FED7A71F419FDD1D1817 /* ffi_i386.h */,
+				9C89E3C2188005510214024A06345087 /* ffi_x86_64.h */,
+				DD9734846B0E79F22F07B8BCF3C26203 /* fficonfig.h */,
+				060810A8B23390D6E0C70DE9085FADB0 /* fficonfig_arm64.h */,
+				4ECD0ABE179C7A5BC121C130902BE8A0 /* fficonfig_armv7.h */,
+				8A4A056A6CE875E70370D4A2F1B4DE2E /* fficonfig_i386.h */,
+				43271416756ECE43DD1823C4F5AC9077 /* fficonfig_x86_64.h */,
+				98522A62BCD9B41873ED2693B1345524 /* ffitarget.h */,
+				0E5797A6984BCB456A7F3E422FEB3E76 /* ffitarget_arm64.h */,
+				FA5669D96A14333C443FA99765CB04BC /* ffitarget_armv7.h */,
+				8F28F754C4975A8DC870FD0BAA814F7E /* ffitarget_i386.h */,
+				E7B05A6C0122B7B68399B8877D66BEEC /* ffitarget_x86_64.h */,
+				958EDB645A4D88869B388F25AA813E0C /* ffiw64_x86_64.c */,
+				3486093FCFE04639229DC4E7DC5668EA /* internal.h */,
+				AB91C7E831C37E209AE6007DC6ECE2CA /* internal.h */,
+				C573EF4DFF6056128637A21ACF6CB978 /* internal.h */,
+				F990D9216966D2785B3845846F6BE37B /* internal64.h */,
+				F31B1A9626279F54B15FCF8EF9B6AB24 /* java_raw_api.c */,
+				85B42CF0BF98DB90E79CE49908BAD531 /* prep_cif.c */,
+				5F7F5D62579CEEDB5848242AE0091B84 /* raw_api.c */,
+				666C51F21192C1AA94A40202CF7BE0E8 /* sysv_arm64.S */,
+				0028AEFD77C353BDFCE168241E3B924F /* sysv_armv7.S */,
+				EEB5CA5D33F9BCDFDB13D00861A1BB11 /* sysv_i386.S */,
+				ED638E28F6E408E4E300A0799D361F91 /* types.c */,
+				5286FE8621510B7D25C2F7DB6ED25EEC /* unix64_x86_64.S */,
+				6C258C38C1ED60D4CC8434481CFA6DE9 /* win64_x86_64.S */,
+				5ACE6A540C90C01220EA7877F40EBEBD /* Support Files */,
+			);
+			name = "libffi-iOS";
+			path = "libffi-iOS";
 			sourceTree = "<group>";
 		};
 		C8EAB28C67798154E4371138FA110576 /* Pods-JLRoutesInSwift */ = {
@@ -230,8 +527,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				1D5B35E1E0694B9E48781E910A4FF52B /* Pods */,
-				563BA85EFCB1895E20E521B654AA6C6A /* Products */,
+				9DE320DD46874D8827D8463FF3510E2A /* Pods */,
+				A5F62860B4FC1DDA5E9203C016523BD0 /* Products */,
 				8704DD86BEC4F41B37B7E4B54479831A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -239,17 +536,32 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F86F10BA93D3C72B9222BFACFE9603AF /* Aspects */ = {
+		E56A64116D8990D8FEB88E5555828892 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D80D1C1C0DCE4B05579E7CC6DFC960EF /* Aspects.h */,
-				182760FBC34A6B1030F06134AF38F48C /* Aspects.m */,
-				292D9BFC42E060C8FBDD242F6900D61D /* Support Files */,
+				47907CD8E1BB03E8BC50E78262DB1630 /* EasySwiftHook.modulemap */,
+				5CFE45EE9DCECBB48EBE9CB0AE399B0B /* EasySwiftHook-dummy.m */,
+				84C10B1D55B502B36E0034BC8D11E171 /* EasySwiftHook-Info.plist */,
+				0E1409904B4D186F6263DB392840FF44 /* EasySwiftHook-prefix.pch */,
+				238202A64A6308F7F7E77B19DB369883 /* EasySwiftHook-umbrella.h */,
+				194255473CAA80389C595001AB31DDD6 /* EasySwiftHook.debug.xcconfig */,
+				9F15ACA88C629EEB49220FCD7C651F75 /* EasySwiftHook.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EasySwiftHook";
+			sourceTree = "<group>";
+		};
+		F6C4622A27652021B019281289AE0788 /* Aspects */ = {
+			isa = PBXGroup;
+			children = (
+				DDE4DCA61987E717F332ACEB6B44C92C /* Aspects.h */,
+				5C8AC9E13F843DD013DFABF556E60EF9 /* Aspects.m */,
+				20D4A9B43A6D66C054B7A88DA462C419 /* Support Files */,
 			);
 			name = Aspects;
 			path = Aspects;
@@ -258,48 +570,126 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5DCC5FD553766B76CF38DE743D8C1A6C /* Headers */ = {
+		15ADF7FD505CA69CB0756BEC51B0CF10 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA2EA7466514A70AD6271EACCE3FC83D /* Pods-JLRoutesInSwift-umbrella.h in Headers */,
+				FE2D68AB89749A686325E77E0C67084B /* Pods-JLRoutesInSwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		99F93E54BD32ABF6BEA21002C98722DF /* Headers */ = {
+		6744566CB42AB3498E250F0236228B72 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				724C6F3FFEE834611903385ACED9A65F /* Aspects-umbrella.h in Headers */,
-				D29807C0AF15AB9973D93D1416EF37EB /* Aspects.h in Headers */,
+				5F4ECB04D8981705B41AA8C894B5C326 /* asmnames.h in Headers */,
+				0C6CDE84D3B281DE5759125E0D674017 /* ffi.h in Headers */,
+				41672CF038CED4FC3A3DCEF01153E78C /* ffi_arm64.h in Headers */,
+				A1BD3D277ED17747604CE72DB664310A /* ffi_armv7.h in Headers */,
+				15C0DBCB05E4157045AEFB39B2AA5F3C /* ffi_cfi.h in Headers */,
+				FD6933F3DC5F788479C2DD8F4C3D0DD3 /* ffi_common.h in Headers */,
+				E961039E44B3628865CCC5F99C1BCF82 /* ffi_i386.h in Headers */,
+				1268BC3FD93B41277916923AD98F77A8 /* ffi_x86_64.h in Headers */,
+				7CACDC0174D745F0386B7983E169863E /* fficonfig.h in Headers */,
+				6C546D7CF1BE2F0C9D34105BEAD48871 /* fficonfig_arm64.h in Headers */,
+				4C0AB154E04335AB322EC07020FC3139 /* fficonfig_armv7.h in Headers */,
+				C779D32954B5DC700584D4AD6CDFED9E /* fficonfig_i386.h in Headers */,
+				3EE4C44C277AA784789406514AE306D4 /* fficonfig_x86_64.h in Headers */,
+				8F27A20BE4353845AB89B831D7C244B8 /* ffitarget.h in Headers */,
+				52D631B0E15A288C808156AB7FC0667F /* ffitarget_arm64.h in Headers */,
+				5E26D81A60C55788F863F1A1CBE817E4 /* ffitarget_armv7.h in Headers */,
+				E17EC60B99886EFC4C863B5A830AA847 /* ffitarget_i386.h in Headers */,
+				7452C1C6B108FC0BD1D8F495FEA99016 /* ffitarget_x86_64.h in Headers */,
+				09DE0D17B79A1F4D082F880F55F388D2 /* internal.h in Headers */,
+				D3F0049C2FECBC84FE4EB5811FEF8045 /* internal.h in Headers */,
+				F121FBD1AF4C6112B152C068F586F91D /* internal.h in Headers */,
+				0766BC16E4CFBA804BA1956DEA68E86A /* internal64.h in Headers */,
+				494C3F18DCE585DF6F6FBBBA2C5AD1E6 /* libffi-iOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3BF26D6EB9AB8BC563C3B1820D359DA /* Headers */ = {
+		9109531235FC77648020E3F6D65F5556 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36EECEDBC33A687A138E4BEBFCF29832 /* JLRoutes-umbrella.h in Headers */,
-				918C894667807974B80B5F6504E5B48E /* JLRoutes.h in Headers */,
-				4CB4CA90CF62A51E973C03C38BEC9749 /* JLRParsingUtilities.h in Headers */,
-				4B96B7949D20C9140EDC36EE0FB34B73 /* JLRRouteDefinition.h in Headers */,
-				DAC25556655D561E3A7D783D0E24EC3F /* JLRRouteHandler.h in Headers */,
-				F7617878B6BE4EE0B8153F13FF6C53A1 /* JLRRouteRequest.h in Headers */,
-				6B358FEECC978014321E943FBCE3E7A8 /* JLRRouteResponse.h in Headers */,
+				AD3F9902B295A806C101F4641D167314 /* JLRoutes.h in Headers */,
+				F1245D2F46461E59626FC61A62386DBF /* JLRoutes-umbrella.h in Headers */,
+				C85DA1A46354A468969EACD179FE386F /* JLRParsingUtilities.h in Headers */,
+				9876C6A7D98B11476F12801B9B964F3E /* JLRRouteDefinition.h in Headers */,
+				8B7DD3B16523D2EA66B6A54A439E8EB8 /* JLRRouteHandler.h in Headers */,
+				291FA8876FC004B71632A2771568D30F /* JLRRouteRequest.h in Headers */,
+				4DFA5D1EA8F8F03454E2CD313A8DA3B2 /* JLRRouteResponse.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82BBF37D091AEA3A3586529EB08FF4D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D515EEB254F3F4A0F638AD14ED36954 /* EasySwiftHook-umbrella.h in Headers */,
+				B8B0E156F4BF202CBF6D121C4696E658 /* SHFFITypeContext.h in Headers */,
+				AB30BE20F2B5698BA078B21F855513D7 /* SHMethodSignature.h in Headers */,
+				71D0BEFF4FB6509D4F6CECAA197FE5EF /* SHObjectiveCUtilities.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81A70E4EE8ED07986F016E7EC9765D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32CD7A2F475F049A6D089B7CE044D11F /* Aspects.h in Headers */,
+				6AE486895FC78491156202632D440774 /* Aspects-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		21C30B94C42FD068EB4F90A530EFDF3C /* libffi-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF7DF0C0C468DC216A65FAAF3045DCA /* Build configuration list for PBXNativeTarget "libffi-iOS" */;
+			buildPhases = (
+				6744566CB42AB3498E250F0236228B72 /* Headers */,
+				3EA27C969A8998668387CAF0B69C5276 /* Sources */,
+				06F9D7250D5E6B0FBE335AA50C02772C /* Frameworks */,
+				A46FCDD09365BC4B70C51E392E08DEF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "libffi-iOS";
+			productName = libffi_iOS;
+			productReference = 1C3D296BE7BAFC49DA95A93F8213E078 /* libffi-iOS */;
+			productType = "com.apple.product-type.framework";
+		};
+		61912FB8929D0BFB4AF6270E38922421 /* EasySwiftHook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC88427D9AD30D9BB1CE400E29FB31D7 /* Build configuration list for PBXNativeTarget "EasySwiftHook" */;
+			buildPhases = (
+				C82BBF37D091AEA3A3586529EB08FF4D /* Headers */,
+				7B886B0E70978B3CFE090FBB7E9F114B /* Sources */,
+				9B9E49BB799F03FCA0ADEDEC7BBEBCCC /* Frameworks */,
+				46FDD3314BCF4697535FAA9DF4584A7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EAC178B9FEB9F2FF4FBB8BFF51F0E45 /* PBXTargetDependency */,
+			);
+			name = EasySwiftHook;
+			productName = EasySwiftHook;
+			productReference = 3E3FBBACE7BF59929651C5FF99DEAFFA /* EasySwiftHook */;
+			productType = "com.apple.product-type.framework";
+		};
 		94C1BAA17BCEBC27586488A205D2E0CB /* JLRoutes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C088AE0249027BD8627D87D88F6116FD /* Build configuration list for PBXNativeTarget "JLRoutes" */;
+			buildConfigurationList = A9C610AA95D9076518846EF808426A29 /* Build configuration list for PBXNativeTarget "JLRoutes" */;
 			buildPhases = (
-				E3BF26D6EB9AB8BC563C3B1820D359DA /* Headers */,
-				02FB5E150D30C877EBBC85F07317D474 /* Sources */,
-				1D8F500BE23EC9D7D5A920379E0D2A3C /* Frameworks */,
-				15DB2E12917A2E57DFF64159DFAC5B1E /* Resources */,
+				9109531235FC77648020E3F6D65F5556 /* Headers */,
+				46897B9F3136CEC600A7456E90FC2571 /* Sources */,
+				1B9826FF94F31F3A1A796B0892F55B04 /* Frameworks */,
+				66A3A47440CEBCD6E83E05B6EDAC3BEF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -307,37 +697,39 @@
 			);
 			name = JLRoutes;
 			productName = JLRoutes;
-			productReference = 50FFBAE87DAAA5D19C6D04413ED5E6D3 /* JLRoutes.framework */;
+			productReference = 50FFBAE87DAAA5D19C6D04413ED5E6D3 /* JLRoutes */;
 			productType = "com.apple.product-type.framework";
 		};
 		BCD406324E3E1D452D2E43F0F2B586A3 /* Pods-JLRoutesInSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CA17D4BAE4CBD95C5D7978B80730D48C /* Build configuration list for PBXNativeTarget "Pods-JLRoutesInSwift" */;
+			buildConfigurationList = 706A151EAD3F9612A630DB0430AACD2E /* Build configuration list for PBXNativeTarget "Pods-JLRoutesInSwift" */;
 			buildPhases = (
-				5DCC5FD553766B76CF38DE743D8C1A6C /* Headers */,
-				C59B78610DF82E983622D143D3273AD0 /* Sources */,
-				EB05557FF1B6C12CDE3C546DB614D840 /* Frameworks */,
-				F6F26CE135103D6C29C57E3D3E3032C5 /* Resources */,
+				15ADF7FD505CA69CB0756BEC51B0CF10 /* Headers */,
+				B77B34B35DA7AE3E52A98645E5226398 /* Sources */,
+				064DA99A254FF9EC315176BED08CCDCB /* Frameworks */,
+				A45E5684B69A19DE83C320969DD6A27A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A8ACCDCA8FF2DC85A36F16A55FF41142 /* PBXTargetDependency */,
-				9928F4D26923FBDFFB0CFBA83D51FDEC /* PBXTargetDependency */,
+				9296CC05B207D31A52E48D4CF5D66A61 /* PBXTargetDependency */,
+				05C8B8E6538804664E7A26BFDFF1BEDE /* PBXTargetDependency */,
+				6C2EB0C780EF5C3F2A6DCFC02682AE83 /* PBXTargetDependency */,
+				91C9091E0A22ABFDA81BB2295A7D125A /* PBXTargetDependency */,
 			);
 			name = "Pods-JLRoutesInSwift";
-			productName = "Pods-JLRoutesInSwift";
-			productReference = F6C0D10CF000E71FBBCFDC8B8F25C8A6 /* Pods_JLRoutesInSwift.framework */;
+			productName = Pods_JLRoutesInSwift;
+			productReference = F6C0D10CF000E71FBBCFDC8B8F25C8A6 /* Pods-JLRoutesInSwift */;
 			productType = "com.apple.product-type.framework";
 		};
 		C6539905C4D50932B36244650B93C79B /* Aspects */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 481C79F5C07A881793399297BB5B77F1 /* Build configuration list for PBXNativeTarget "Aspects" */;
+			buildConfigurationList = C4598C22D39EABCF3464BB7E9073BD91 /* Build configuration list for PBXNativeTarget "Aspects" */;
 			buildPhases = (
-				99F93E54BD32ABF6BEA21002C98722DF /* Headers */,
-				C4AE8E5152CE884778AC9B63E3E90C1A /* Sources */,
-				9943FC1B865C20DF2ED50FB7E60CBB47 /* Frameworks */,
-				9EFB5C01B84AD08B8E3C507B30A26819 /* Resources */,
+				E81A70E4EE8ED07986F016E7EC9765D1 /* Headers */,
+				A0EF248A494F07E4DEB9B48D95906016 /* Sources */,
+				77C3B4399728E0AD3106AA3DE62F6621 /* Frameworks */,
+				23615DADD68BAB1A739438A4BA2B0977 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -345,7 +737,7 @@
 			);
 			name = Aspects;
 			productName = Aspects;
-			productReference = 9808BF74538141204E4EB5B49809FE77 /* Aspects.framework */;
+			productReference = 9808BF74538141204E4EB5B49809FE77 /* Aspects */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -354,45 +746,61 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 563BA85EFCB1895E20E521B654AA6C6A /* Products */;
+			productRefGroup = A5F62860B4FC1DDA5E9203C016523BD0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				C6539905C4D50932B36244650B93C79B /* Aspects */,
+				61912FB8929D0BFB4AF6270E38922421 /* EasySwiftHook */,
 				94C1BAA17BCEBC27586488A205D2E0CB /* JLRoutes */,
+				21C30B94C42FD068EB4F90A530EFDF3C /* libffi-iOS */,
 				BCD406324E3E1D452D2E43F0F2B586A3 /* Pods-JLRoutesInSwift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		15DB2E12917A2E57DFF64159DFAC5B1E /* Resources */ = {
+		23615DADD68BAB1A739438A4BA2B0977 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9EFB5C01B84AD08B8E3C507B30A26819 /* Resources */ = {
+		46FDD3314BCF4697535FAA9DF4584A7D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F6F26CE135103D6C29C57E3D3E3032C5 /* Resources */ = {
+		66A3A47440CEBCD6E83E05B6EDAC3BEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45E5684B69A19DE83C320969DD6A27A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A46FCDD09365BC4B70C51E392E08DEF8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -402,60 +810,135 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		02FB5E150D30C877EBBC85F07317D474 /* Sources */ = {
+		3EA27C969A8998668387CAF0B69C5276 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B82A5D68D986C31F2C8DD8F32567F95E /* JLRoutes-dummy.m in Sources */,
-				0125193F2CE2B3130E202CB468759270 /* JLRoutes.m in Sources */,
-				35E0A3A14138D358A3004C7726FFE6D3 /* JLRParsingUtilities.m in Sources */,
-				B968B2F40C75DCFD7305A4790C627993 /* JLRRouteDefinition.m in Sources */,
-				A0499EF0577F64DB374C97E14916A116 /* JLRRouteHandler.m in Sources */,
-				E350CD07E06EEC066A4C90E5A8BF434D /* JLRRouteRequest.m in Sources */,
-				A49CABC9087355456E30B703C69E155A /* JLRRouteResponse.m in Sources */,
+				7A52FE8A1124B4D3D14F395DC2E26D09 /* closures.c in Sources */,
+				E4FDF2396859217D35473A280DC1CE27 /* debug.c in Sources */,
+				3A5FDB81F6232576EEEC472A456132B2 /* dlmalloc.c in Sources */,
+				38DD438EC85AB43A96D4DDDE3E25C79A /* Empty.swift in Sources */,
+				851B6CCDDB6D82DA792C8336DFFFD9C3 /* ffi64_x86_64.c in Sources */,
+				A993E6CFA97333E147908BC866D5522C /* ffi_arm64.c in Sources */,
+				23E272B6E4521E16A614459A76B8BE5F /* ffi_armv7.c in Sources */,
+				1B4F1A2D8C846BB92013EBCDA98322BC /* ffi_i386.c in Sources */,
+				442A6C87FEE6107F0E84438251E5A7B2 /* ffiw64_x86_64.c in Sources */,
+				1D43E1A31E22757344CE5DABD86B82A9 /* java_raw_api.c in Sources */,
+				F6705684E46739673FFC963364848975 /* libffi-iOS-dummy.m in Sources */,
+				B446C0637DECC8FCB9B1996A5978C5AF /* prep_cif.c in Sources */,
+				E9547E5C6D96E6340C74A7900F97060A /* raw_api.c in Sources */,
+				9EB962F1C6A7B82E4F6C8EC4ACBA1615 /* sysv_arm64.S in Sources */,
+				807B61CF77713DC0C9FA58DE8695C651 /* sysv_armv7.S in Sources */,
+				6B8449227DF5DC90854A195F835A879B /* sysv_i386.S in Sources */,
+				D299CFDF2B56E58839858C54A98292ED /* types.c in Sources */,
+				CB581E7BC889FEB77B179025AB085B45 /* unix64_x86_64.S in Sources */,
+				51175228BDD66BBD655CB5304219A461 /* win64_x86_64.S in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4AE8E5152CE884778AC9B63E3E90C1A /* Sources */ = {
+		46897B9F3136CEC600A7456E90FC2571 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A954361B6A6FD111452CB9DABC9B30F7 /* Aspects-dummy.m in Sources */,
-				F51A21D307B9275272758FF324F60B91 /* Aspects.m in Sources */,
+				75C45409904B12854E49D5BB1C55AD5E /* JLRoutes.m in Sources */,
+				6B7E84D9EABF96F7868DF0BB3573FFF7 /* JLRoutes-dummy.m in Sources */,
+				8BC5E73C642D43DE0FB50E62AC7C6391 /* JLRParsingUtilities.m in Sources */,
+				5EAA83C0127233DA976D0D5379864457 /* JLRRouteDefinition.m in Sources */,
+				19E6C70F591B3DE7CA46263396957FC4 /* JLRRouteHandler.m in Sources */,
+				B6DB24DD2D06BB7F6A84A8794068B2A3 /* JLRRouteRequest.m in Sources */,
+				42B141EB6B1E50F3EAADA548E6F55EB9 /* JLRRouteResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C59B78610DF82E983622D143D3273AD0 /* Sources */ = {
+		7B886B0E70978B3CFE090FBB7E9F114B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F8D53F430B111DDE96534F2A5618B1A /* Pods-JLRoutesInSwift-dummy.m in Sources */,
+				7EEC67113B050C649280EEE5ADCD5AAA /* DynamicClass.swift in Sources */,
+				EC085FEF983DC8ECCFCD2E4BB4AFF017 /* EasySwiftHook-dummy.m in Sources */,
+				6602F04B23ED5D71E7CE8942CBD981AF /* FFICIFContext.swift in Sources */,
+				D36CC7D3528BF30B44799C9C7D7289D1 /* FFIClosureContext.swift in Sources */,
+				FC6AF32E9231136AF4A1522E9129A017 /* HookAllInstances.swift in Sources */,
+				86E73C6C9B9267BC0A26CDC69B07C5C8 /* HookAllInstancesOC.swift in Sources */,
+				F316B6C00B0DF3F28F4C5EC2F93D6823 /* HookClassMethods.swift in Sources */,
+				6B64CCC2C4CD6040B76B85931BE2E992 /* HookClassMethodsOC.swift in Sources */,
+				81773D52D4EF0FDA80247D5C0B2FD27E /* HookCommon.swift in Sources */,
+				BD7F78DDB7A2A8242DB0F88837C01C78 /* HookCommonOC.swift in Sources */,
+				D270C03B98C066589D195E3E5A666087 /* HookContext.swift in Sources */,
+				9A03578225DCAD058E1F199F5524D3A0 /* HookDeallocAfterDelegate.swift in Sources */,
+				279FBFDFDE11794ADD1C0840D9592BF7 /* HookInternal.swift in Sources */,
+				A3230F303CEA124E2EA9B90018A793B5 /* HookSpecificInstance.swift in Sources */,
+				0F8FFB5835A4ADD4A46E40AA03727768 /* HookSpecificInstanceOC.swift in Sources */,
+				3FF58F762FA24D2028B078B3E4810A53 /* InsteadHookClosureExtension.swift in Sources */,
+				388877DE051CDDFDAB6C7EF848EB2DE4 /* KVOWrapper.swift in Sources */,
+				50106CA15B4B15B44EC89982FCEC791D /* OverrideSuperMethod.swift in Sources */,
+				C88A3A68F06F7AA41761D5837B44A9DA /* ParametersCheck.swift in Sources */,
+				95B122E8FE5248BED073AB9CB44B9600 /* SHFFITypeContext.m in Sources */,
+				9C04E1C2CF9DDA67E625C93387E996F2 /* SHMethodSignature.m in Sources */,
+				1872FC348E2D719A672F3E0020A13B1C /* SHObjectiveCUtilities.m in Sources */,
+				AD72FDD25E389E9CFDD8725337422642 /* Signature.swift in Sources */,
+				8909094C6865F0066722FDEA6B54980E /* TargetObjectExtension.swift in Sources */,
+				5C7050EDCBFD7B7D6A93D1E17D7C4D30 /* Utilities.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0EF248A494F07E4DEB9B48D95906016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218AAFD4C55A074825F329C60BE86B53 /* Aspects.m in Sources */,
+				F1EFC0357C236119D052A8A80A126190 /* Aspects-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B77B34B35DA7AE3E52A98645E5226398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A931B8FD9D3BCFF0C98306F4BC3B4DB /* Pods-JLRoutesInSwift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9928F4D26923FBDFFB0CFBA83D51FDEC /* PBXTargetDependency */ = {
+		05C8B8E6538804664E7A26BFDFF1BEDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EasySwiftHook;
+			target = 61912FB8929D0BFB4AF6270E38922421 /* EasySwiftHook */;
+			targetProxy = 7B240E332E44BF86E23EAA29C589E87E /* PBXContainerItemProxy */;
+		};
+		2EAC178B9FEB9F2FF4FBB8BFF51F0E45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libffi-iOS";
+			target = 21C30B94C42FD068EB4F90A530EFDF3C /* libffi-iOS */;
+			targetProxy = 48EEC2027BB66681EC07505316DFE3B7 /* PBXContainerItemProxy */;
+		};
+		6C2EB0C780EF5C3F2A6DCFC02682AE83 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JLRoutes;
 			target = 94C1BAA17BCEBC27586488A205D2E0CB /* JLRoutes */;
-			targetProxy = 39924649A28FE072FFA502B5A5706840 /* PBXContainerItemProxy */;
+			targetProxy = BED038A527FD0A5FE34F5F44B23C491E /* PBXContainerItemProxy */;
 		};
-		A8ACCDCA8FF2DC85A36F16A55FF41142 /* PBXTargetDependency */ = {
+		91C9091E0A22ABFDA81BB2295A7D125A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libffi-iOS";
+			target = 21C30B94C42FD068EB4F90A530EFDF3C /* libffi-iOS */;
+			targetProxy = 94DEEA4CCC35204584C08A1764E9F719 /* PBXContainerItemProxy */;
+		};
+		9296CC05B207D31A52E48D4CF5D66A61 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Aspects;
 			target = C6539905C4D50932B36244650B93C79B /* Aspects */;
-			targetProxy = EFC643DD77BB45CD63B776570989C231 /* PBXContainerItemProxy */;
+			targetProxy = 2D770FEDB7262C8B338670E03C5A8C8A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0AC556573053E475A9A76D131EA77944 /* Debug */ = {
+		26A1B0D4E63A9EA0416334DB1E964BB5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76FB877FC0303C1EC3AC522CCCF2B42B /* Aspects.debug.xcconfig */;
+			baseConfigurationReference = 16CB9E34B72C77AD19C2596DFA5C88E3 /* JLRoutes.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -464,8 +947,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Aspects/Aspects-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Aspects/Aspects-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JLRoutes/JLRoutes-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JLRoutes/JLRoutes-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -473,26 +956,25 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/Aspects/Aspects.modulemap";
-				PRODUCT_MODULE_NAME = Aspects;
-				PRODUCT_NAME = Aspects;
+				MODULEMAP_FILE = "Target Support Files/JLRoutes/JLRoutes.modulemap";
+				PRODUCT_MODULE_NAME = JLRoutes;
+				PRODUCT_NAME = JLRoutes;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		5C53C47017E340EAA6D9D5945F36650D /* Release */ = {
+		2DC83D78F287CFCE314D7CE575E70304 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3818D76C604070C062D76A158FA19015 /* Pods-JLRoutesInSwift.release.xcconfig */;
+			baseConfigurationReference = 194255473CAA80389C595001AB31DDD6 /* EasySwiftHook.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -501,23 +983,92 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-JLRoutesInSwift/Pods-JLRoutesInSwift-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/EasySwiftHook/EasySwiftHook-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EasySwiftHook/EasySwiftHook-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JLRoutesInSwift/Pods-JLRoutesInSwift.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/EasySwiftHook/EasySwiftHook.modulemap";
+				PRODUCT_MODULE_NAME = EasySwiftHook;
+				PRODUCT_NAME = EasySwiftHook;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E8541183DF2D8604781ED9A82D69D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23221576A0D3E57AC4A5B42F097F5176 /* libffi-iOS.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/libffi-iOS/libffi-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/libffi-iOS/libffi-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/libffi-iOS/libffi-iOS.modulemap";
+				PRODUCT_MODULE_NAME = libffi_iOS;
+				PRODUCT_NAME = libffi_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		41F7888BA9E2667D6AF6750806D78BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F15ACA88C629EEB49220FCD7C651F75 /* EasySwiftHook.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EasySwiftHook/EasySwiftHook-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EasySwiftHook/EasySwiftHook-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EasySwiftHook/EasySwiftHook.modulemap";
+				PRODUCT_MODULE_NAME = EasySwiftHook;
+				PRODUCT_NAME = EasySwiftHook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -525,11 +1076,10 @@
 			};
 			name = Release;
 		};
-		78178DC7938B7C94F3FD62F319D46D20 /* Release */ = {
+		4A59013197C21D7442C29D80F060C5BF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F1307922043CB06CBCA28226D08A277 /* Aspects.release.xcconfig */;
+			baseConfigurationReference = 858BC362733984FD39FD5F8AA82E5444 /* Aspects.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -555,90 +1105,17 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7C858A521987355040CD6793718ADA47 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE98E85D8B98E19D6064E5CFD0AA38A3 /* JLRoutes.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JLRoutes/JLRoutes-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JLRoutes/JLRoutes-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/JLRoutes/JLRoutes.modulemap";
-				PRODUCT_MODULE_NAME = JLRoutes;
-				PRODUCT_NAME = JLRoutes;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		9C39CEF81CD55CB3C25865EC400D26B0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3757AFDF23B61CD52DEAB37132484C68 /* JLRoutes.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JLRoutes/JLRoutes-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JLRoutes/JLRoutes-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/JLRoutes/JLRoutes.modulemap";
-				PRODUCT_MODULE_NAME = JLRoutes;
-				PRODUCT_NAME = JLRoutes;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D4C25257627622010E2743CFCED37DC0 /* Debug */ = {
+		6D6521BA390F28C7EC4E454693778204 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B8C4A64DB38D55F5E1245E42D80D8894 /* Pods-JLRoutesInSwift.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -670,10 +1147,119 @@
 			};
 			name = Debug;
 		};
-		DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */ = {
+		7A59011A741ED218C5D0850C16957BA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A49B3CEE9D94F037CC840A6B8E3F5ADC /* libffi-iOS.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/libffi-iOS/libffi-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/libffi-iOS/libffi-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/libffi-iOS/libffi-iOS.modulemap";
+				PRODUCT_MODULE_NAME = libffi_iOS;
+				PRODUCT_NAME = libffi_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		957A47C236430C746A5F3A4F156D2ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF0E7DA65D9444C5981C5061B29319EE /* JLRoutes.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JLRoutes/JLRoutes-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JLRoutes/JLRoutes-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JLRoutes/JLRoutes.modulemap";
+				PRODUCT_MODULE_NAME = JLRoutes;
+				PRODUCT_NAME = JLRoutes;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A3FD5DFC037B324CE649AA990934CCE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3818D76C604070C062D76A158FA19015 /* Pods-JLRoutesInSwift.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JLRoutesInSwift/Pods-JLRoutesInSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JLRoutesInSwift/Pods-JLRoutesInSwift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A445D08D964FE9C6C05CEE2B0A948973 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -696,6 +1282,104 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C42E7D42A6E2866C8394CB970948E586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0F58BEFA12CE7A360AF1F6DBE607A91 /* Aspects.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Aspects/Aspects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Aspects/Aspects-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Aspects/Aspects.modulemap";
+				PRODUCT_MODULE_NAME = Aspects;
+				PRODUCT_NAME = Aspects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EB7376794D773187B6D048F04E70CE39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -734,101 +1418,59 @@
 			};
 			name = Debug;
 		};
-		F5F04600F5626DC980F02790D1ED2C19 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		481C79F5C07A881793399297BB5B77F1 /* Build configuration list for PBXNativeTarget "Aspects" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0AC556573053E475A9A76D131EA77944 /* Debug */,
-				78178DC7938B7C94F3FD62F319D46D20 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */,
-				F5F04600F5626DC980F02790D1ED2C19 /* Release */,
+				EB7376794D773187B6D048F04E70CE39 /* Debug */,
+				A445D08D964FE9C6C05CEE2B0A948973 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C088AE0249027BD8627D87D88F6116FD /* Build configuration list for PBXNativeTarget "JLRoutes" */ = {
+		706A151EAD3F9612A630DB0430AACD2E /* Build configuration list for PBXNativeTarget "Pods-JLRoutesInSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7C858A521987355040CD6793718ADA47 /* Debug */,
-				9C39CEF81CD55CB3C25865EC400D26B0 /* Release */,
+				6D6521BA390F28C7EC4E454693778204 /* Debug */,
+				A3FD5DFC037B324CE649AA990934CCE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CA17D4BAE4CBD95C5D7978B80730D48C /* Build configuration list for PBXNativeTarget "Pods-JLRoutesInSwift" */ = {
+		A9C610AA95D9076518846EF808426A29 /* Build configuration list for PBXNativeTarget "JLRoutes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D4C25257627622010E2743CFCED37DC0 /* Debug */,
-				5C53C47017E340EAA6D9D5945F36650D /* Release */,
+				957A47C236430C746A5F3A4F156D2ED1 /* Debug */,
+				26A1B0D4E63A9EA0416334DB1E964BB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF7DF0C0C468DC216A65FAAF3045DCA /* Build configuration list for PBXNativeTarget "libffi-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E8541183DF2D8604781ED9A82D69D74 /* Debug */,
+				7A59011A741ED218C5D0850C16957BA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4598C22D39EABCF3464BB7E9073BD91 /* Build configuration list for PBXNativeTarget "Aspects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A59013197C21D7442C29D80F060C5BF /* Debug */,
+				C42E7D42A6E2866C8394CB970948E586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC88427D9AD30D9BB1CE400E29FB31D7 /* Build configuration list for PBXNativeTarget "EasySwiftHook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DC83D78F287CFCE314D7CE575E70304 /* Debug */,
+				41F7888BA9E2667D6AF6750806D78BAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
