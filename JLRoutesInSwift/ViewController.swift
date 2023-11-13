@@ -15,6 +15,8 @@ class ViewController: UIViewController {
     
     private var token: EasySwiftHook.Token?
     
+    var someView: UIView?
+    
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
         token?.cancelHook()

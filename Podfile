@@ -7,6 +7,7 @@ target 'JLRoutesInSwift' do
   pod 'JLRoutes'
   pod 'Aspects'
   pod 'EasySwiftHook'
+  #pod 'SwiftLint'
   # Pods for JLRoutesInSwift
 
 end

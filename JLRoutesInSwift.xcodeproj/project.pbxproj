@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00372E972B01FD0F002E1FAE /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 00372E962B01FD0F002E1FAE /* .swiftlint.yml */; };
 		61E04CEC2490ADC900F73F1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E04CEB2490ADC900F73F1B /* AppDelegate.swift */; };
 		61E04CEE2490ADC900F73F1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E04CED2490ADC900F73F1B /* SceneDelegate.swift */; };
 		61E04CF02490ADC900F73F1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E04CEF2490ADC900F73F1B /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		0007BA312627AC15016819FC /* Pods-JLRoutesInSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLRoutesInSwift.release.xcconfig"; path = "Target Support Files/Pods-JLRoutesInSwift/Pods-JLRoutesInSwift.release.xcconfig"; sourceTree = "<group>"; };
+		00372E962B01FD0F002E1FAE /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
 		61E04CE82490ADC900F73F1B /* JLRoutesInSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLRoutesInSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61E04CEB2490ADC900F73F1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61E04CED2490ADC900F73F1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				61E04CF42490ADCB00F73F1B /* Assets.xcassets */,
 				61E04CF62490ADCB00F73F1B /* LaunchScreen.storyboard */,
 				61E04CF92490ADCB00F73F1B /* Info.plist */,
+				00372E962B01FD0F002E1FAE /* .swiftlint.yml */,
 			);
 			path = JLRoutesInSwift;
 			sourceTree = "<group>";
@@ -123,6 +126,7 @@
 				61E04CE52490ADC900F73F1B /* Frameworks */,
 				61E04CE62490ADC900F73F1B /* Resources */,
 				FEF1CCA096F80685405C7025 /* [CP] Embed Pods Frameworks */,
+				001EFF9F2B020A1D00C8F8C9 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -171,6 +175,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00372E972B01FD0F002E1FAE /* .swiftlint.yml in Resources */,
 				61E04CF82490ADCB00F73F1B /* LaunchScreen.storyboard in Resources */,
 				61E04CF52490ADCB00F73F1B /* Assets.xcassets in Resources */,
 				61E04CF32490ADC900F73F1B /* Main.storyboard in Resources */,
@@ -180,6 +185,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		001EFF9F2B020A1D00C8F8C9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nexport PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
 		036D63C165E09B7A1B5E5BA3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
